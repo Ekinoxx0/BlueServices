@@ -2,14 +2,21 @@
   "categoryId": 616684710499844240,
   "emoji": "🏡",
   "name": "Immobilier",
-  "allowed": false,
-  "hasRunSystem": false,
+  "hasRunSystem": true,
   "lastTimePayedRunSystem": -1,
   "subscribedForDays": 0,
   "dailyPrimes": false,
-  "prime": 10,
-  "receivedByRun": 0,
+  "prime": [],
   "manualValidation": false,
-  "runs": [],
-  "accountBook": []
+  "roles": {
+    "44": 616699420032892939,
+    "45": 616699426932523102,
+    "46": 616699426932523013,
+    "47": 616699427872309266,
+    "48": 616699427872309266,
+    "49": 616699432133459975,
+    "50": 616699432133459975,
+    "52": 616699432133459975
+  },
+  "runs": []
 }

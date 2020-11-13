@@ -2,14 +2,21 @@
   "categoryId": 616684608863469674,
   "emoji": "🎓",
   "name": "Avocat",
-  "allowed": false,
   "hasRunSystem": true,
   "lastTimePayedRunSystem": -1,
   "subscribedForDays": 0,
   "dailyPrimes": false,
-  "prime": 10,
-  "receivedByRun": 10,
+  "prime": [],
   "manualValidation": false,
-  "runs": [],
-  "accountBook": []
+  "roles": {
+    "51": 616699423149392042,
+    "52": 616699418217021461,
+    "53": 616699422348410890,
+    "54": 616699426328805396,
+    "55": 616699426328805396,
+    "56": 616698634695868416,
+    "57": 616698634695868416,
+    "59": 616698634695868416
+  },
+  "runs": []
 }

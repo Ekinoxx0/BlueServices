@@ -2,14 +2,22 @@
   "categoryId": 616685157289820191,
   "emoji": "🚗",
   "name": "Concessionaire",
-  "allowed": false,
-  "hasRunSystem": false,
+  "hasRunSystem": true,
   "lastTimePayedRunSystem": -1,
   "subscribedForDays": 0,
   "dailyPrimes": false,
-  "prime": 10,
-  "receivedByRun": 0,
+  "prime": [],
   "manualValidation": false,
-  "runs": [],
-  "accountBook": []
+  "roles": {
+    "23": 616699419294957584,
+    "24": 616702089959178252,
+    "25": 616701888779517979,
+    "26": 616702096665739271,
+    "27": 616702101203976202,
+    "28": 616701891568468016,
+    "29": 616701891568468016,
+    "30": 616702101203976202,
+    "31": 616701891568468016
+  },
+  "runs": []
 }

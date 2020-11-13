@@ -2,14 +2,23 @@
   "categoryId": 614611567178416141,
   "emoji": "🎥",
   "name": "Journaliste",
-  "allowed": false,
   "hasRunSystem": false,
-  "lastTimePayedRunSystem": -1,
+  "lastTimePayedRunSystem": 0,
   "subscribedForDays": 0,
   "dailyPrimes": false,
-  "prime": 10,
-  "receivedByRun": 10,
   "manualValidation": false,
-  "runs": [],
-  "accountBook": []
+  "roles": {
+    "43": 614628966808027136,
+    "44": 614627948229558282,
+    "45": 614626091570561054,
+    "47": 614624887390076938,
+    "111": 614628966808027136,
+    "112": 614628966808027136,
+    "113": 614627948229558282,
+    "114": 614626091570561054,
+    "115": 614627948229558282,
+    "116": 614624887390076938,
+    "118": 614624887390076938
+  },
+  "runs": []
 }

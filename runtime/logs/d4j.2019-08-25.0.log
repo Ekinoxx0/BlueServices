@@ -1,0 +1,427 @@
+2019-08-25 17:16:43.088 [main] INFO  UsersDB                                  : Finished loading 0 users file into UsersDB..
+2019-08-25 17:16:43.516 [main] INFO  discord4j.core.DiscordClientBuilder      : Shard 0 with Discord4J 3.0.8 (https://discord4j.com)
+2019-08-25 17:16:45.212 [discord4j-events-1] INFO  BServices                                : BlueServices is now logged.
+2019-08-25 17:16:45.212 [reactor-http-nio-4] INFO  discord4j.gateway.client.0               : Connected to Gateway
+2019-08-25 17:19:21.396 [main] INFO  UsersDB                                  : Finished loading 0 users file into UsersDB..
+2019-08-25 17:19:21.815 [main] INFO  discord4j.core.DiscordClientBuilder      : Shard 0 with Discord4J 3.0.8 (https://discord4j.com)
+2019-08-25 17:19:23.525 [discord4j-events-1] INFO  BServices                                : BlueServices is now logged.
+2019-08-25 17:19:23.525 [reactor-http-nio-4] INFO  discord4j.gateway.client.0               : Connected to Gateway
+2019-08-25 17:19:51.107 [main] INFO  UsersDB                                  : Finished loading 0 users file into UsersDB..
+2019-08-25 17:19:51.532 [main] INFO  discord4j.core.DiscordClientBuilder      : Shard 0 with Discord4J 3.0.8 (https://discord4j.com)
+2019-08-25 17:19:53.101 [discord4j-events-1] INFO  BServices                                : BlueServices is now logged.
+2019-08-25 17:19:53.101 [reactor-http-nio-4] INFO  discord4j.gateway.client.0               : Connected to Gateway
+2019-08-25 17:19:53.568 [discord4j-events-1] ERROR reactor.core.publisher.Operators         : Operator called default onErrorDropped
+discord4j.rest.http.client.ClientException: PUT /guilds/614597074423644170/members/195274814569578506/roles/614884348684009492 returned 403 Forbidden with response {code=50013, message=Missing Permissions}
+	at discord4j.rest.http.client.DiscordWebClient.clientException(DiscordWebClient.java:171)
+	at discord4j.rest.http.client.DiscordWebClient.lambda$null$7(DiscordWebClient.java:148)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:118)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1510)
+	at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:241)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.onNext(FluxPeekFuseable.java:204)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxHandleFuseable$HandleFuseableSubscriber.onNext(FluxHandleFuseable.java:180)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:287)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxUsing$UsingFuseableSubscriber.onNext(FluxUsing.java:350)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableSubscriber.onNext(FluxFilterFuseable.java:113)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1510)
+	at reactor.core.publisher.MonoReduceSeed$ReduceSeedSubscriber.onComplete(MonoReduceSeed.java:156)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onComplete(FluxOnAssembly.java:355)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:136)
+	at reactor.netty.channel.FluxReceive.terminateReceiver(FluxReceive.java:390)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:197)
+	at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:338)
+	at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:359)
+	at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:408)
+	at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:555)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:91)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:438)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:297)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:253)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1478)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1227)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1274)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:502)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:441)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:278)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1408)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:682)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Unknown Source)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Assembly trace from producer [reactor.core.publisher.MonoFlatMap] :
+	reactor.core.publisher.Mono.flatMap(Mono.java:2490)
+	discord4j.rest.http.client.DiscordWebClient.lambda$null$10(DiscordWebClient.java:148)
+Error has been observed by the following operator(s):
+	|_	Mono.flatMap ⇢ discord4j.rest.http.client.DiscordWebClient.lambda$null$10(DiscordWebClient.java:148)
+	|_	Mono.switchIfEmpty ⇢ discord4j.rest.http.client.DiscordWebClient.lambda$null$10(DiscordWebClient.java:149)
+	|_	Mono.doFinally ⇢ reactor.netty.http.client.HttpClientFinalizer.lambda$responseSingle$7(HttpClientFinalizer.java:97)
+	|_	Mono.flatMap ⇢ reactor.netty.http.client.HttpClientFinalizer.responseSingle(HttpClientFinalizer.java:95)
+	|_	Mono.flatMap ⇢ discord4j.rest.http.client.DiscordWebClient.exchange(DiscordWebClient.java:136)
+	|_	Mono.flatMap ⇢ discord4j.rest.request.RequestStream$RequestSubscriber.hookOnNext(RequestStream.java:190)
+	|_	Flux.concatMap ⇢ reactor.retry.DefaultRetry.apply(DefaultRetry.java:115)
+	|_	Mono.retryWhen ⇢ discord4j.rest.request.RequestStream$RequestSubscriber.hookOnNext(RequestStream.java:191)
+	|_	Mono.transform ⇢ discord4j.rest.request.RequestStream$RequestSubscriber.hookOnNext(RequestStream.java:192)
+	|_	Flux.concatMap ⇢ reactor.retry.DefaultRetry.apply(DefaultRetry.java:115)
+	|_	Mono.retryWhen ⇢ discord4j.rest.request.RequestStream$RequestSubscriber.hookOnNext(RequestStream.java:193)
+	|_	Mono.log ⇢ discord4j.rest.request.RequestStream$RequestSubscriber.hookOnNext(RequestStream.java:194)
+	|_	Mono.doFinally ⇢ discord4j.rest.request.RequestStream$RequestSubscriber.hookOnNext(RequestStream.java:195)
+	|_	Flux.usingWhen ⇢ discord4j.rest.request.SemaphoreGlobalRateLimiter.withLimiter(SemaphoreGlobalRateLimiter.java:87)
+	|_	Mono.flatMap ⇢ discord4j.rest.request.DefaultRouter.exchange(DefaultRouter.java:92)
+	|_	Mono.publishOn ⇢ discord4j.rest.request.DefaultRouter.exchange(DefaultRouter.java:101)
+
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:93)
+		at reactor.core.publisher.Mono.block(Mono.java:1494)
+		at io.blueservices.BlueServices.lambda$6(BlueServices.java:89)
+		at reactor.core.publisher.LambdaMonoSubscriber.onNext(LambdaMonoSubscriber.java:137)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1510)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:241)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:67)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2066)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.request(FluxOnAssembly.java:442)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.request(FluxOnAssembly.java:442)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:1874)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:1748)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onSubscribe(FluxOnAssembly.java:426)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onSubscribe(FluxOnAssembly.java:426)
+		at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:54)
+		at reactor.core.publisher.MonoCallableOnAssembly.subscribe(MonoCallableOnAssembly.java:82)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.MonoOnAssembly.subscribe(MonoOnAssembly.java:61)
+		at reactor.core.publisher.MonoSwitchIfEmpty.subscribe(MonoSwitchIfEmpty.java:44)
+		at reactor.core.publisher.MonoOnAssembly.subscribe(MonoOnAssembly.java:61)
+		at reactor.core.publisher.MonoMapFuseable.subscribe(MonoMapFuseable.java:59)
+		at reactor.core.publisher.MonoOnAssembly.subscribe(MonoOnAssembly.java:61)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:150)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:67)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2066)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.request(FluxOnAssembly.java:442)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.request(FluxOnAssembly.java:442)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:1874)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:1748)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onSubscribe(FluxOnAssembly.java:426)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onSubscribe(FluxOnAssembly.java:426)
+		at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:54)
+		at reactor.core.publisher.MonoCallableOnAssembly.subscribe(MonoCallableOnAssembly.java:82)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.MonoOnAssembly.subscribe(MonoOnAssembly.java:61)
+		at reactor.core.publisher.MonoSwitchIfEmpty.subscribe(MonoSwitchIfEmpty.java:44)
+		at reactor.core.publisher.MonoOnAssembly.subscribe(MonoOnAssembly.java:61)
+		at reactor.core.publisher.MonoFlatMap.subscribe(MonoFlatMap.java:60)
+		at reactor.core.publisher.MonoOnAssembly.subscribe(MonoOnAssembly.java:61)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:3710)
+		at reactor.core.publisher.Mono.subscribeWith(Mono.java:3816)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:3704)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:3671)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:3618)
+		at io.blueservices.BlueServices.onReady(BlueServices.java:88)
+		at reactor.core.publisher.LambdaSubscriber.onNext(LambdaSubscriber.java:130)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+		at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.onNext(FluxPeekFuseable.java:204)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableSubscriber.tryOnNext(FluxFilterFuseable.java:143)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblyConditionalSubscriber.tryOnNext(FluxOnAssembly.java:476)
+		at reactor.core.publisher.FluxPublishOn$PublishOnConditionalSubscriber.runAsync(FluxPublishOn.java:866)
+		at reactor.core.publisher.FluxPublishOn$PublishOnConditionalSubscriber.run(FluxPublishOn.java:939)
+		at reactor.scheduler.forkjoin.ForkJoinPoolScheduler$DisposableWorkerTask.run(ForkJoinPoolScheduler.java:443)
+		at reactor.scheduler.forkjoin.ForkJoinPoolScheduler$Worker.processTaskQueue(ForkJoinPoolScheduler.java:407)
+		at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(Unknown Source)
+		at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+		at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+		at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+		at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+2019-08-25 17:19:53.574 [discord4j-events-1] ERROR reactor.core.scheduler.Schedulers        : Scheduler worker in group main failed with an uncaught exception
+discord4j.rest.http.client.ClientException: PUT /guilds/614597074423644170/members/195274814569578506/roles/614884348684009492 returned 403 Forbidden with response {code=50013, message=Missing Permissions}
+	at discord4j.rest.http.client.DiscordWebClient.clientException(DiscordWebClient.java:171)
+	at discord4j.rest.http.client.DiscordWebClient.lambda$null$7(DiscordWebClient.java:148)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:118)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1510)
+	at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:241)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.onNext(FluxPeekFuseable.java:204)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxHandleFuseable$HandleFuseableSubscriber.onNext(FluxHandleFuseable.java:180)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:287)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxUsing$UsingFuseableSubscriber.onNext(FluxUsing.java:350)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableSubscriber.onNext(FluxFilterFuseable.java:113)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1510)
+	at reactor.core.publisher.MonoReduceSeed$ReduceSeedSubscriber.onComplete(MonoReduceSeed.java:156)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onComplete(FluxOnAssembly.java:355)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:136)
+	at reactor.netty.channel.FluxReceive.terminateReceiver(FluxReceive.java:390)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:197)
+	at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:338)
+	at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:359)
+	at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:408)
+	at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:555)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:91)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:438)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:297)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:253)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1478)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1227)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1274)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:502)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:441)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:278)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1408)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:682)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Unknown Source)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Assembly trace from producer [reactor.core.publisher.MonoFlatMap] :
+	reactor.core.publisher.Mono.flatMap(Mono.java:2490)
+	discord4j.rest.http.client.DiscordWebClient.lambda$null$10(DiscordWebClient.java:148)
+Error has been observed by the following operator(s):
+	|_	Mono.flatMap ⇢ discord4j.rest.http.client.DiscordWebClient.lambda$null$10(DiscordWebClient.java:148)
+	|_	Mono.switchIfEmpty ⇢ discord4j.rest.http.client.DiscordWebClient.lambda$null$10(DiscordWebClient.java:149)
+	|_	Mono.doFinally ⇢ reactor.netty.http.client.HttpClientFinalizer.lambda$responseSingle$7(HttpClientFinalizer.java:97)
+	|_	Mono.flatMap ⇢ reactor.netty.http.client.HttpClientFinalizer.responseSingle(HttpClientFinalizer.java:95)
+	|_	Mono.flatMap ⇢ discord4j.rest.http.client.DiscordWebClient.exchange(DiscordWebClient.java:136)
+	|_	Mono.flatMap ⇢ discord4j.rest.request.RequestStream$RequestSubscriber.hookOnNext(RequestStream.java:190)
+	|_	Flux.concatMap ⇢ reactor.retry.DefaultRetry.apply(DefaultRetry.java:115)
+	|_	Mono.retryWhen ⇢ discord4j.rest.request.RequestStream$RequestSubscriber.hookOnNext(RequestStream.java:191)
+	|_	Mono.transform ⇢ discord4j.rest.request.RequestStream$RequestSubscriber.hookOnNext(RequestStream.java:192)
+	|_	Flux.concatMap ⇢ reactor.retry.DefaultRetry.apply(DefaultRetry.java:115)
+	|_	Mono.retryWhen ⇢ discord4j.rest.request.RequestStream$RequestSubscriber.hookOnNext(RequestStream.java:193)
+	|_	Mono.log ⇢ discord4j.rest.request.RequestStream$RequestSubscriber.hookOnNext(RequestStream.java:194)
+	|_	Mono.doFinally ⇢ discord4j.rest.request.RequestStream$RequestSubscriber.hookOnNext(RequestStream.java:195)
+	|_	Flux.usingWhen ⇢ discord4j.rest.request.SemaphoreGlobalRateLimiter.withLimiter(SemaphoreGlobalRateLimiter.java:87)
+	|_	Mono.flatMap ⇢ discord4j.rest.request.DefaultRouter.exchange(DefaultRouter.java:92)
+	|_	Mono.publishOn ⇢ discord4j.rest.request.DefaultRouter.exchange(DefaultRouter.java:101)
+
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:93)
+		at reactor.core.publisher.Mono.block(Mono.java:1494)
+		at io.blueservices.BlueServices.lambda$6(BlueServices.java:89)
+		at reactor.core.publisher.LambdaMonoSubscriber.onNext(LambdaMonoSubscriber.java:137)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1510)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:241)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:67)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2066)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.request(FluxOnAssembly.java:442)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.request(FluxOnAssembly.java:442)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:1874)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:1748)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onSubscribe(FluxOnAssembly.java:426)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onSubscribe(FluxOnAssembly.java:426)
+		at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:54)
+		at reactor.core.publisher.MonoCallableOnAssembly.subscribe(MonoCallableOnAssembly.java:82)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.MonoOnAssembly.subscribe(MonoOnAssembly.java:61)
+		at reactor.core.publisher.MonoSwitchIfEmpty.subscribe(MonoSwitchIfEmpty.java:44)
+		at reactor.core.publisher.MonoOnAssembly.subscribe(MonoOnAssembly.java:61)
+		at reactor.core.publisher.MonoMapFuseable.subscribe(MonoMapFuseable.java:59)
+		at reactor.core.publisher.MonoOnAssembly.subscribe(MonoOnAssembly.java:61)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:150)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:67)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2066)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.request(FluxOnAssembly.java:442)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.request(FluxOnAssembly.java:442)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:1874)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:1748)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onSubscribe(FluxOnAssembly.java:426)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onSubscribe(FluxOnAssembly.java:426)
+		at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:54)
+		at reactor.core.publisher.MonoCallableOnAssembly.subscribe(MonoCallableOnAssembly.java:82)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+		at reactor.core.publisher.MonoOnAssembly.subscribe(MonoOnAssembly.java:61)
+		at reactor.core.publisher.MonoSwitchIfEmpty.subscribe(MonoSwitchIfEmpty.java:44)
+		at reactor.core.publisher.MonoOnAssembly.subscribe(MonoOnAssembly.java:61)
+		at reactor.core.publisher.MonoFlatMap.subscribe(MonoFlatMap.java:60)
+		at reactor.core.publisher.MonoOnAssembly.subscribe(MonoOnAssembly.java:61)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:3710)
+		at reactor.core.publisher.Mono.subscribeWith(Mono.java:3816)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:3704)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:3671)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:3618)
+		at io.blueservices.BlueServices.onReady(BlueServices.java:88)
+		at reactor.core.publisher.LambdaSubscriber.onNext(LambdaSubscriber.java:130)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+		at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.onNext(FluxPeekFuseable.java:204)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableSubscriber.tryOnNext(FluxFilterFuseable.java:143)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblyConditionalSubscriber.tryOnNext(FluxOnAssembly.java:476)
+		at reactor.core.publisher.FluxPublishOn$PublishOnConditionalSubscriber.runAsync(FluxPublishOn.java:866)
+		at reactor.core.publisher.FluxPublishOn$PublishOnConditionalSubscriber.run(FluxPublishOn.java:939)
+		at reactor.scheduler.forkjoin.ForkJoinPoolScheduler$DisposableWorkerTask.run(ForkJoinPoolScheduler.java:443)
+		at reactor.scheduler.forkjoin.ForkJoinPoolScheduler$Worker.processTaskQueue(ForkJoinPoolScheduler.java:407)
+		at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(Unknown Source)
+		at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+		at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+		at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+		at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+2019-08-25 17:20:55.536 [main] INFO  UsersDB                                  : Finished loading 0 users file into UsersDB..
+2019-08-25 17:20:55.970 [main] INFO  discord4j.core.DiscordClientBuilder      : Shard 0 with Discord4J 3.0.8 (https://discord4j.com)
+2019-08-25 17:20:57.562 [discord4j-events-1] INFO  BServices                                : BlueServices is now logged.
+2019-08-25 17:20:57.562 [reactor-http-nio-4] INFO  discord4j.gateway.client.0               : Connected to Gateway
+2019-08-25 18:21:31.541 [main] INFO  io.blueservices.users.UsersDB            : Finished loading 0 users file into UsersDB..
+2019-08-25 18:21:31.543 [main] INFO  io.blueservices.entreprises.CompanyDB    : Finished loading 0 users file into CompanyDB..
+2019-08-25 18:21:32.585 [main] INFO  discord4j.core.DiscordClientBuilder      : Shard 0 with Discord4J 3.0.8 (https://discord4j.com)
+2019-08-25 18:21:34.281 [discord4j-events-1] INFO  BServices                                : BlueServices is now logged.
+2019-08-25 18:21:34.281 [reactor-http-nio-4] INFO  discord4j.gateway.client.0               : Connected to Gateway
+2019-08-25 18:21:34.540 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Salons textuels
+2019-08-25 18:21:34.541 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : 「👕」Tailleur
+2019-08-25 18:21:34.541 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : 「🔨」Bûcheron
+2019-08-25 18:21:34.541 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : 「🎣」Pêcheur
+2019-08-25 18:21:34.541 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : 「🚖」Taxi
+2019-08-25 18:21:34.541 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : 「🐔」Abatteur
+2019-08-25 18:21:34.541 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : 「🎥」Journaliste
+2019-08-25 18:21:34.541 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : 「🛵」Concessionnaire de Moto
+2019-08-25 18:21:34.541 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : 「⛽」Raffineur
+2019-08-25 18:21:34.541 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : 「🥂」Tequilala
+2019-08-25 18:21:34.541 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : 「🍹」Unicorn
+2019-08-25 18:23:18.675 [main] INFO  io.blueservices.users.UsersDB            : Finished loading 0 users file into UsersDB..
+2019-08-25 18:23:18.678 [main] INFO  io.blueservices.entreprises.CompanyDB    : Finished loading 0 users file into CompanyDB..
+2019-08-25 18:23:19.106 [main] INFO  discord4j.core.DiscordClientBuilder      : Shard 0 with Discord4J 3.0.8 (https://discord4j.com)
+2019-08-25 18:23:20.654 [discord4j-events-1] INFO  BServices                                : BlueServices is now logged.
+2019-08-25 18:23:20.654 [reactor-http-nio-4] INFO  discord4j.gateway.client.0               : Connected to Gateway
+2019-08-25 18:23:20.972 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : 「👕」Tailleur
+2019-08-25 18:23:20.972 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : 「🔨」Bûcheron
+2019-08-25 18:23:20.972 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : 「🎣」Pêcheur
+2019-08-25 18:23:20.972 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : 「🚖」Taxi
+2019-08-25 18:23:20.972 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : 「🐔」Abatteur
+2019-08-25 18:23:20.972 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : 「🎥」Journaliste
+2019-08-25 18:23:20.972 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : 「🛵」Concessionnaire de Moto
+2019-08-25 18:23:20.972 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : 「⛽」Raffineur
+2019-08-25 18:23:20.972 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : 「🥂」Tequilala
+2019-08-25 18:23:20.972 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : 「🍹」Unicorn
+2019-08-25 18:37:08.317 [main] INFO  io.blueservices.users.UsersDB            : Finished loading 0 users file into UsersDB..
+2019-08-25 18:37:08.320 [main] INFO  io.blueservices.entreprises.CompanyDB    : Finished loading 0 users file into CompanyDB..
+2019-08-25 18:37:08.749 [main] INFO  discord4j.core.DiscordClientBuilder      : Shard 0 with Discord4J 3.0.8 (https://discord4j.com)
+2019-08-25 18:37:11.808 [discord4j-events-1] INFO  BServices                                : BlueServices is now logged.
+2019-08-25 18:37:11.808 [reactor-http-nio-4] INFO  discord4j.gateway.client.0               : Connected to Gateway
+2019-08-25 18:37:12.042 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「👕」Tailleur
+2019-08-25 18:37:12.043 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Creating new enterprise Tailleur with emoji (👕) at category Snowflake{614611427218554928}
+2019-08-25 18:37:12.055 [discord4j-events-1] INFO  i.b.entreprises.PlatformCompany          : Saved Tailleur successfuly
+2019-08-25 18:37:12.055 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🔨」Bûcheron
+2019-08-25 18:37:12.055 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Creating new enterprise Bûcheron with emoji (🔨) at category Snowflake{614611454330404864}
+2019-08-25 18:37:12.058 [discord4j-events-1] INFO  i.b.entreprises.PlatformCompany          : Saved Bûcheron successfuly
+2019-08-25 18:37:12.059 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎣」Pêcheur
+2019-08-25 18:37:12.059 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Creating new enterprise Pêcheur with emoji (🎣) at category Snowflake{614611479588765719}
+2019-08-25 18:37:12.062 [discord4j-events-1] INFO  i.b.entreprises.PlatformCompany          : Saved Pêcheur successfuly
+2019-08-25 18:37:12.062 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🚖」Taxi
+2019-08-25 18:37:12.062 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Creating new enterprise Taxi with emoji (🚖) at category Snowflake{614611509674246331}
+2019-08-25 18:37:12.066 [discord4j-events-1] INFO  i.b.entreprises.PlatformCompany          : Saved Taxi successfuly
+2019-08-25 18:37:12.066 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🐔」Abatteur
+2019-08-25 18:37:12.066 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Creating new enterprise Abatteur with emoji (🐔) at category Snowflake{614611540347453450}
+2019-08-25 18:37:12.110 [discord4j-events-1] INFO  i.b.entreprises.PlatformCompany          : Saved Abatteur successfuly
+2019-08-25 18:37:12.110 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎥」Journaliste
+2019-08-25 18:37:12.110 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Creating new enterprise Journaliste with emoji (🎥) at category Snowflake{614611567178416141}
+2019-08-25 18:37:12.114 [discord4j-events-1] INFO  i.b.entreprises.PlatformCompany          : Saved Journaliste successfuly
+2019-08-25 18:37:12.114 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🛵」Concessionnaire de Moto
+2019-08-25 18:37:12.114 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Creating new enterprise Concessionnaire de Moto with emoji (🛵) at category Snowflake{614611591262109713}
+2019-08-25 18:37:12.120 [discord4j-events-1] INFO  i.b.entreprises.PlatformCompany          : Saved Concessionnaire de Moto successfuly
+2019-08-25 18:37:12.120 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「⛽」Raffineur
+2019-08-25 18:37:12.120 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Creating new enterprise Raffineur with emoji (⛽) at category Snowflake{614611619112157264}
+2019-08-25 18:37:12.126 [discord4j-events-1] INFO  i.b.entreprises.PlatformCompany          : Saved Raffineur successfuly
+2019-08-25 18:37:12.126 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🥂」Tequilala
+2019-08-25 18:37:12.127 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Creating new enterprise Tequilala with emoji (🥂) at category Snowflake{614611652175986708}
+2019-08-25 18:37:12.133 [discord4j-events-1] INFO  i.b.entreprises.PlatformCompany          : Saved Tequilala successfuly
+2019-08-25 18:37:12.133 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🍹」Unicorn
+2019-08-25 18:37:12.133 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Creating new enterprise Unicorn with emoji (🍹) at category Snowflake{614611691618959382}
+2019-08-25 18:37:12.139 [discord4j-events-1] INFO  i.b.entreprises.PlatformCompany          : Saved Unicorn successfuly
+2019-08-25 18:55:02.526 [main] INFO  io.blueservices.users.UsersDB            : Finished loading 0 users file into UsersDB..
+2019-08-25 18:55:02.537 [main] INFO  io.blueservices.entreprises.CompanyDB    : Finished loading 10 users file into CompanyDB..
+2019-08-25 18:55:02.959 [main] INFO  discord4j.core.DiscordClientBuilder      : Shard 0 with Discord4J 3.0.8 (https://discord4j.com)
+2019-08-25 18:55:04.615 [discord4j-events-2] INFO  BServices                                : BlueServices is now logged.
+2019-08-25 18:55:04.615 [reactor-http-nio-4] INFO  discord4j.gateway.client.0               : Connected to Gateway
+2019-08-25 18:55:04.876 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「👕」Tailleur
+2019-08-25 18:55:04.912 [discord4j-events-2] INFO  PCompany                                 : Company Tailleur has run system
+2019-08-25 18:55:04.912 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🔨」Bûcheron
+2019-08-25 18:55:04.944 [discord4j-events-2] INFO  PCompany                                 : Company Bûcheron has run system
+2019-08-25 18:55:04.944 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎣」Pêcheur
+2019-08-25 18:55:04.975 [discord4j-events-2] INFO  PCompany                                 : Company Pêcheur has run system
+2019-08-25 18:55:04.975 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🚖」Taxi
+2019-08-25 18:55:05.005 [discord4j-events-2] INFO  PCompany                                 : Company Taxi has run system
+2019-08-25 18:55:05.005 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🐔」Abatteur
+2019-08-25 18:55:05.035 [discord4j-events-2] INFO  PCompany                                 : Company Abatteur has run system
+2019-08-25 18:55:05.035 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎥」Journaliste
+2019-08-25 18:55:05.066 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🛵」Concessionnaire de Moto
+2019-08-25 18:55:05.095 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「⛽」Raffineur
+2019-08-25 18:55:05.124 [discord4j-events-2] INFO  PCompany                                 : Company Raffineur has run system
+2019-08-25 18:55:05.124 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🥂」Tequilala
+2019-08-25 18:55:05.151 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🍹」Unicorn

@@ -2,14 +2,21 @@
   "categoryId": 616684837381865482,
   "emoji": "🍹",
   "name": "Unicorn",
-  "allowed": false,
   "hasRunSystem": true,
   "lastTimePayedRunSystem": -1,
   "subscribedForDays": 0,
   "dailyPrimes": false,
-  "prime": 10,
-  "receivedByRun": 0,
+  "prime": [],
   "manualValidation": false,
-  "runs": [],
-  "accountBook": []
+  "roles": {
+    "30": 616702103926210600,
+    "31": 616701888355631106,
+    "32": 616701885835116544,
+    "33": 616702099035652161,
+    "34": 616702099035652161,
+    "35": 616699422725898241,
+    "36": 616699422725898241,
+    "38": 616699422725898241
+  },
+  "runs": []
 }

@@ -1,0 +1,1274 @@
+2019-08-29 19:01:32.008 [main] INFO  io.blueservices.users.UsersDB            : Finished loading 0 users file into UsersDB..
+2019-08-29 19:01:32.305 [main] INFO  io.blueservices.entreprises.CompanyDB    : Finished loading 10 companies file into CompanyDB..
+2019-08-29 19:01:33.534 [main] INFO  discord4j.core.DiscordClientBuilder      : Shard 0 with Discord4J 3.0.8 (https://discord4j.com)
+2019-08-29 19:01:37.609 [reactor-http-nio-4] INFO  discord4j.gateway.client.0               : Connected to Gateway
+2019-08-29 19:01:37.612 [discord4j-events-1] INFO  BServices                                : BlueServices is now logged.
+2019-08-29 19:01:38.116 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「👕」Tailleur
+2019-08-29 19:01:38.201 [discord4j-events-1] INFO  PCompany                                 : Company Tailleur has run system
+2019-08-29 19:01:38.202 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🔨」Bûcheron
+2019-08-29 19:01:38.272 [discord4j-events-1] INFO  PCompany                                 : Company Bûcheron has run system
+2019-08-29 19:01:38.272 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎣」Pêcheur
+2019-08-29 19:01:38.336 [discord4j-events-1] INFO  PCompany                                 : Company Pêcheur has run system
+2019-08-29 19:01:38.336 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🚖」Taxi
+2019-08-29 19:01:38.410 [discord4j-events-1] INFO  PCompany                                 : Company Taxi has run system
+2019-08-29 19:01:38.410 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🐔」Abatteur
+2019-08-29 19:01:38.527 [discord4j-events-1] INFO  PCompany                                 : Company Abatteur has run system
+2019-08-29 19:01:38.528 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎥」Journaliste
+2019-08-29 19:01:38.619 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🛵」Concessionnaire de Moto
+2019-08-29 19:01:38.678 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「⛽」Raffineur
+2019-08-29 19:01:38.741 [discord4j-events-1] INFO  PCompany                                 : Company Raffineur has run system
+2019-08-29 19:01:38.742 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🥂」Tequilala
+2019-08-29 19:01:38.808 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🍇」Vigneron
+2019-08-29 19:01:38.808 [discord4j-events-1] INFO  PCompany                                 : Updating emoji for Unicorn
+2019-08-29 19:01:38.820 [discord4j-events-1] INFO  PCompany                                 : Saved Unicorn successfuly
+2019-08-29 19:01:38.820 [discord4j-events-1] INFO  PCompany                                 : Updating name for Unicorn
+2019-08-29 19:01:38.834 [discord4j-events-1] INFO  PCompany                                 : Saved Vigneron successfuly
+2019-08-29 19:01:38.892 [discord4j-events-1] INFO  PCompany                                 : Company Vigneron has run system
+2019-08-29 19:01:38.892 [discord4j-events-1] WARN  PCompany                                 : New company with run system !
+2019-08-29 19:01:38.893 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : ________________________
+2019-08-29 19:01:39.098 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [15] Role: Attente d'entretien
+2019-08-29 19:01:39.098 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [16] Role: Intérimaires
+2019-08-29 19:01:39.098 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [17] Role: Employés
+2019-08-29 19:01:39.098 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [18] Role: Co - Patron
+2019-08-29 19:01:39.098 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Vigneron
+2019-08-29 19:01:39.099 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [20] Role: Patron Vigneron
+2019-08-29 19:01:39.099 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [22] Role: Attente d'entretien
+2019-08-29 19:01:39.099 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [23] Role: Intérimaires
+2019-08-29 19:01:39.099 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [24] Role: Employés
+2019-08-29 19:01:39.100 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [25] Role: Co-Patron
+2019-08-29 19:01:39.100 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Tequilala
+2019-08-29 19:01:39.100 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [27] Role: Patron Tequilala
+2019-08-29 19:01:39.100 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [29] Role: Attente d'entretien
+2019-08-29 19:01:39.100 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [30] Role: Intérimaires
+2019-08-29 19:01:39.100 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [31] Role: Employés
+2019-08-29 19:01:39.100 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [32] Role: Co - Patron
+2019-08-29 19:01:39.100 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Raffineur
+2019-08-29 19:01:39.100 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [34] Role: Patron Raffineur
+2019-08-29 19:01:39.101 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [43] Role: Attente d'entretien
+2019-08-29 19:01:39.101 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [44] Role: Employés
+2019-08-29 19:01:39.101 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [45] Role: Rédacteur
+2019-08-29 19:01:39.101 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Journaliste
+2019-08-29 19:01:39.101 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [47] Role: Patron Journaliste
+2019-08-29 19:01:39.102 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [49] Role: Attente d'entretien
+2019-08-29 19:01:39.102 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [50] Role: Intérimaires
+2019-08-29 19:01:39.102 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [51] Role: Employés
+2019-08-29 19:01:39.102 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [52] Role: Co - Patron
+2019-08-29 19:01:39.102 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Abatteur
+2019-08-29 19:01:39.102 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [54] Role: Patron Abatteur
+2019-08-29 19:01:39.102 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [56] Role: Attente d'entretien
+2019-08-29 19:01:39.103 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [57] Role: Intérimaires
+2019-08-29 19:01:39.103 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [58] Role: Employés
+2019-08-29 19:01:39.103 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [59] Role: Co - Patron
+2019-08-29 19:01:39.103 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Taxi
+2019-08-29 19:01:39.103 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [61] Role: Patron Taxi
+2019-08-29 19:01:39.103 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [63] Role: Attente d'entretien
+2019-08-29 19:01:39.104 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [64] Role: Intérimaires
+2019-08-29 19:01:39.104 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [65] Role: Employés
+2019-08-29 19:01:39.104 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [66] Role: Co - Patron
+2019-08-29 19:01:39.104 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Pêcheur
+2019-08-29 19:01:39.104 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [68] Role: Patron Pêcheur
+2019-08-29 19:01:39.104 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [70] Role: Attente d'entretien
+2019-08-29 19:01:39.104 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [71] Role: Intérimaires
+2019-08-29 19:01:39.105 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [72] Role: Employés
+2019-08-29 19:01:39.105 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [73] Role: Co - Patron
+2019-08-29 19:01:39.105 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Bûcheron
+2019-08-29 19:01:39.105 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [75] Role: Patron Bûcheron
+2019-08-29 19:01:39.106 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [77] Role: Attente d'entretien
+2019-08-29 19:01:39.106 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [78] Role: Intérimaires
+2019-08-29 19:01:39.106 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [79] Role: Employés
+2019-08-29 19:01:39.106 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [80] Role: Co - Patron
+2019-08-29 19:01:39.107 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Tailleur
+2019-08-29 19:01:39.107 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [82] Role: Patron Tailleur
+2019-08-29 19:01:39.109 [discord4j-events-1] INFO  PCompany                                 : Saved Tailleur successfuly
+2019-08-29 19:01:39.110 [discord4j-events-1] INFO  PCompany                                 : Saved Bûcheron successfuly
+2019-08-29 19:01:39.112 [discord4j-events-1] INFO  PCompany                                 : Saved Pêcheur successfuly
+2019-08-29 19:01:39.113 [discord4j-events-1] INFO  PCompany                                 : Saved Taxi successfuly
+2019-08-29 19:01:39.115 [discord4j-events-1] INFO  PCompany                                 : Saved Abatteur successfuly
+2019-08-29 19:01:39.117 [discord4j-events-1] INFO  PCompany                                 : Saved Journaliste successfuly
+2019-08-29 19:01:39.119 [discord4j-events-1] INFO  PCompany                                 : Saved Concessionnaire de Moto successfuly
+2019-08-29 19:01:39.120 [discord4j-events-1] INFO  PCompany                                 : Saved Raffineur successfuly
+2019-08-29 19:01:39.122 [discord4j-events-1] INFO  PCompany                                 : Saved Tequilala successfuly
+2019-08-29 19:01:39.133 [discord4j-events-1] INFO  PCompany                                 : Saved Vigneron successfuly
+2019-08-29 19:01:39.133 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Succesfuly saved CompanyDB
+2019-08-29 19:02:16.626 [main] INFO  io.blueservices.users.UsersDB            : Finished loading 0 users file into UsersDB..
+2019-08-29 19:02:16.693 [main] INFO  io.blueservices.entreprises.CompanyDB    : Finished loading 10 companies file into CompanyDB..
+2019-08-29 19:02:18.086 [main] INFO  discord4j.core.DiscordClientBuilder      : Shard 0 with Discord4J 3.0.8 (https://discord4j.com)
+2019-08-29 19:02:21.150 [reactor-http-nio-4] INFO  discord4j.gateway.client.0               : Connected to Gateway
+2019-08-29 19:02:21.150 [discord4j-events-1] INFO  BServices                                : BlueServices is now logged.
+2019-08-29 19:02:21.666 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「👕」Tailleur
+2019-08-29 19:02:21.773 [discord4j-events-1] INFO  PCompany                                 : Company Tailleur has run system
+2019-08-29 19:02:21.773 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🔨」Bûcheron
+2019-08-29 19:02:21.870 [discord4j-events-1] INFO  PCompany                                 : Company Bûcheron has run system
+2019-08-29 19:02:21.870 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎣」Pêcheur
+2019-08-29 19:02:21.945 [discord4j-events-1] INFO  PCompany                                 : Company Pêcheur has run system
+2019-08-29 19:02:21.945 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🚖」Taxi
+2019-08-29 19:02:22.043 [discord4j-events-1] INFO  PCompany                                 : Company Taxi has run system
+2019-08-29 19:02:22.044 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🐔」Abatteur
+2019-08-29 19:02:22.110 [discord4j-events-1] INFO  PCompany                                 : Company Abatteur has run system
+2019-08-29 19:02:22.110 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎥」Journaliste
+2019-08-29 19:02:22.181 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🛵」Concessionnaire de Moto
+2019-08-29 19:02:22.267 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「⛽」Raffineur
+2019-08-29 19:02:22.364 [discord4j-events-1] INFO  PCompany                                 : Company Raffineur has run system
+2019-08-29 19:02:22.364 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🥂」Tequilala
+2019-08-29 19:02:22.422 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🍇」Vigneron
+2019-08-29 19:02:22.472 [discord4j-events-1] INFO  PCompany                                 : Company Vigneron has run system
+2019-08-29 19:02:22.473 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : ________________________
+2019-08-29 19:02:22.521 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [15] Role: Attente d'entretien
+2019-08-29 19:02:22.521 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [16] Role: Intérimaires
+2019-08-29 19:02:22.522 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [17] Role: Employés
+2019-08-29 19:02:22.522 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [18] Role: Co - Patron
+2019-08-29 19:02:22.522 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Vigneron
+2019-08-29 19:02:22.522 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [20] Role: Patron Vigneron
+2019-08-29 19:02:22.522 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [22] Role: Attente d'entretien
+2019-08-29 19:02:22.522 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [23] Role: Intérimaires
+2019-08-29 19:02:22.522 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [24] Role: Employés
+2019-08-29 19:02:22.523 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [25] Role: Co-Patron
+2019-08-29 19:02:22.523 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Tequilala
+2019-08-29 19:02:22.523 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [27] Role: Patron Tequilala
+2019-08-29 19:02:22.524 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [29] Role: Attente d'entretien
+2019-08-29 19:02:22.524 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [30] Role: Intérimaires
+2019-08-29 19:02:22.525 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [31] Role: Employés
+2019-08-29 19:02:22.526 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [32] Role: Co - Patron
+2019-08-29 19:02:22.527 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Raffineur
+2019-08-29 19:02:22.528 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [34] Role: Patron Raffineur
+2019-08-29 19:02:22.529 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [43] Role: Attente d'entretien
+2019-08-29 19:02:22.529 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [44] Role: Employés
+2019-08-29 19:02:22.529 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [45] Role: Rédacteur
+2019-08-29 19:02:22.529 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Journaliste
+2019-08-29 19:02:22.529 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [47] Role: Patron Journaliste
+2019-08-29 19:02:22.529 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [49] Role: Attente d'entretien
+2019-08-29 19:02:22.530 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [50] Role: Intérimaires
+2019-08-29 19:02:22.530 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [51] Role: Employés
+2019-08-29 19:02:22.530 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [52] Role: Co - Patron
+2019-08-29 19:02:22.530 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Abatteur
+2019-08-29 19:02:22.530 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [54] Role: Patron Abatteur
+2019-08-29 19:02:22.530 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [56] Role: Attente d'entretien
+2019-08-29 19:02:22.531 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [57] Role: Intérimaires
+2019-08-29 19:02:22.531 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [58] Role: Employés
+2019-08-29 19:02:22.531 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [59] Role: Co - Patron
+2019-08-29 19:02:22.531 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Taxi
+2019-08-29 19:02:22.531 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [61] Role: Patron Taxi
+2019-08-29 19:02:22.531 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [63] Role: Attente d'entretien
+2019-08-29 19:02:22.532 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [64] Role: Intérimaires
+2019-08-29 19:02:22.532 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [65] Role: Employés
+2019-08-29 19:02:22.532 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [66] Role: Co - Patron
+2019-08-29 19:02:22.532 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Pêcheur
+2019-08-29 19:02:22.532 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [68] Role: Patron Pêcheur
+2019-08-29 19:02:22.532 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [70] Role: Attente d'entretien
+2019-08-29 19:02:22.532 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [71] Role: Intérimaires
+2019-08-29 19:02:22.532 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [72] Role: Employés
+2019-08-29 19:02:22.532 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [73] Role: Co - Patron
+2019-08-29 19:02:22.533 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Bûcheron
+2019-08-29 19:02:22.533 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [75] Role: Patron Bûcheron
+2019-08-29 19:02:22.533 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [77] Role: Attente d'entretien
+2019-08-29 19:02:22.537 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [78] Role: Intérimaires
+2019-08-29 19:02:22.537 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [79] Role: Employés
+2019-08-29 19:02:22.538 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [80] Role: Co - Patron
+2019-08-29 19:02:22.538 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Tailleur
+2019-08-29 19:02:22.539 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [82] Role: Patron Tailleur
+2019-08-29 19:02:22.550 [discord4j-events-1] INFO  PCompany                                 : Saved Tailleur successfuly
+2019-08-29 19:02:22.553 [discord4j-events-1] INFO  PCompany                                 : Saved Bûcheron successfuly
+2019-08-29 19:02:22.556 [discord4j-events-1] INFO  PCompany                                 : Saved Pêcheur successfuly
+2019-08-29 19:02:22.558 [discord4j-events-1] INFO  PCompany                                 : Saved Taxi successfuly
+2019-08-29 19:02:22.563 [discord4j-events-1] INFO  PCompany                                 : Saved Abatteur successfuly
+2019-08-29 19:02:22.565 [discord4j-events-1] INFO  PCompany                                 : Saved Journaliste successfuly
+2019-08-29 19:02:22.569 [discord4j-events-1] INFO  PCompany                                 : Saved Concessionnaire de Moto successfuly
+2019-08-29 19:02:22.571 [discord4j-events-1] INFO  PCompany                                 : Saved Raffineur successfuly
+2019-08-29 19:02:22.587 [discord4j-events-1] INFO  PCompany                                 : Saved Tequilala successfuly
+2019-08-29 19:02:22.591 [discord4j-events-1] INFO  PCompany                                 : Saved Vigneron successfuly
+2019-08-29 19:02:22.593 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Succesfuly saved CompanyDB
+2019-08-29 19:03:42.307 [main] INFO  io.blueservices.users.UsersDB            : Finished loading 0 users file into UsersDB..
+2019-08-29 19:03:42.342 [main] INFO  io.blueservices.entreprises.CompanyDB    : Finished loading 10 companies file into CompanyDB..
+2019-08-29 19:03:43.111 [main] INFO  discord4j.core.DiscordClientBuilder      : Shard 0 with Discord4J 3.0.8 (https://discord4j.com)
+2019-08-29 19:03:46.608 [discord4j-events-1] INFO  BServices                                : BlueServices is now logged.
+2019-08-29 19:03:46.608 [reactor-http-nio-4] INFO  discord4j.gateway.client.0               : Connected to Gateway
+2019-08-29 19:03:46.996 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「👕」Tailleur
+2019-08-29 19:03:47.084 [discord4j-events-1] INFO  PCompany                                 : Company Tailleur has run system
+2019-08-29 19:03:47.085 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🔨」Bûcheron
+2019-08-29 19:03:47.146 [discord4j-events-1] INFO  PCompany                                 : Company Bûcheron has run system
+2019-08-29 19:03:47.146 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎣」Pêcheur
+2019-08-29 19:03:47.207 [discord4j-events-1] INFO  PCompany                                 : Company Pêcheur has run system
+2019-08-29 19:03:47.207 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🚖」Taxi
+2019-08-29 19:03:47.275 [discord4j-events-1] INFO  PCompany                                 : Company Taxi has run system
+2019-08-29 19:03:47.275 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🐔」Abatteur
+2019-08-29 19:03:47.326 [discord4j-events-1] INFO  PCompany                                 : Company Abatteur has run system
+2019-08-29 19:03:47.327 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎥」Journaliste
+2019-08-29 19:03:47.382 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🛵」Concessionnaire de Moto
+2019-08-29 19:03:47.461 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「⛽」Raffineur
+2019-08-29 19:03:47.511 [discord4j-events-1] INFO  PCompany                                 : Company Raffineur has run system
+2019-08-29 19:03:47.511 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🥂」Tequilala
+2019-08-29 19:03:47.560 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🍇」Vigneron
+2019-08-29 19:03:47.604 [discord4j-events-1] INFO  PCompany                                 : Company Vigneron has run system
+2019-08-29 19:03:47.604 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : ________________________
+2019-08-29 19:03:47.636 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [15] Role: Attente d'entretien
+2019-08-29 19:03:47.636 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [16] Role: Intérimaires
+2019-08-29 19:03:47.637 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [17] Role: Employés
+2019-08-29 19:03:47.637 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [18] Role: Co - Patron
+2019-08-29 19:03:47.637 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Vigneron
+2019-08-29 19:03:47.637 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [20] Role: Patron Vigneron
+2019-08-29 19:03:47.638 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [22] Role: Attente d'entretien
+2019-08-29 19:03:47.638 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [23] Role: Intérimaires
+2019-08-29 19:03:47.638 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [24] Role: Employés
+2019-08-29 19:03:47.638 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [25] Role: Co-Patron
+2019-08-29 19:03:47.638 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Tequilala
+2019-08-29 19:03:47.638 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [27] Role: Patron Tequilala
+2019-08-29 19:03:47.639 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [29] Role: Attente d'entretien
+2019-08-29 19:03:47.639 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [30] Role: Intérimaires
+2019-08-29 19:03:47.639 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [31] Role: Employés
+2019-08-29 19:03:47.639 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [32] Role: Co - Patron
+2019-08-29 19:03:47.639 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Raffineur
+2019-08-29 19:03:47.639 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [34] Role: Patron Raffineur
+2019-08-29 19:03:47.639 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [43] Role: Attente d'entretien
+2019-08-29 19:03:47.640 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [44] Role: Employés
+2019-08-29 19:03:47.640 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [45] Role: Rédacteur
+2019-08-29 19:03:47.640 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Journaliste
+2019-08-29 19:03:47.640 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [47] Role: Patron Journaliste
+2019-08-29 19:03:47.640 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [49] Role: Attente d'entretien
+2019-08-29 19:03:47.640 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [50] Role: Intérimaires
+2019-08-29 19:03:47.640 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [51] Role: Employés
+2019-08-29 19:03:47.640 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [52] Role: Co - Patron
+2019-08-29 19:03:47.640 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Abatteur
+2019-08-29 19:03:47.640 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [54] Role: Patron Abatteur
+2019-08-29 19:03:47.641 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [56] Role: Attente d'entretien
+2019-08-29 19:03:47.641 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [57] Role: Intérimaires
+2019-08-29 19:03:47.641 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [58] Role: Employés
+2019-08-29 19:03:47.641 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [59] Role: Co - Patron
+2019-08-29 19:03:47.641 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Taxi
+2019-08-29 19:03:47.641 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [61] Role: Patron Taxi
+2019-08-29 19:03:47.641 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [63] Role: Attente d'entretien
+2019-08-29 19:03:47.641 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [64] Role: Intérimaires
+2019-08-29 19:03:47.641 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [65] Role: Employés
+2019-08-29 19:03:47.642 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [66] Role: Co - Patron
+2019-08-29 19:03:47.642 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Pêcheur
+2019-08-29 19:03:47.642 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [68] Role: Patron Pêcheur
+2019-08-29 19:03:47.642 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [70] Role: Attente d'entretien
+2019-08-29 19:03:47.642 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [71] Role: Intérimaires
+2019-08-29 19:03:47.642 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [72] Role: Employés
+2019-08-29 19:03:47.642 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [73] Role: Co - Patron
+2019-08-29 19:03:47.642 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Bûcheron
+2019-08-29 19:03:47.643 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [75] Role: Patron Bûcheron
+2019-08-29 19:03:47.643 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [77] Role: Attente d'entretien
+2019-08-29 19:03:47.643 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [78] Role: Intérimaires
+2019-08-29 19:03:47.643 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [79] Role: Employés
+2019-08-29 19:03:47.643 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [80] Role: Co - Patron
+2019-08-29 19:03:47.643 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Tailleur
+2019-08-29 19:03:47.643 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [82] Role: Patron Tailleur
+2019-08-29 19:03:47.649 [discord4j-events-1] INFO  PCompany                                 : Saved Tailleur successfuly
+2019-08-29 19:03:47.650 [discord4j-events-1] INFO  PCompany                                 : Saved Bûcheron successfuly
+2019-08-29 19:03:47.651 [discord4j-events-1] INFO  PCompany                                 : Saved Pêcheur successfuly
+2019-08-29 19:03:47.652 [discord4j-events-1] INFO  PCompany                                 : Saved Taxi successfuly
+2019-08-29 19:03:47.654 [discord4j-events-1] INFO  PCompany                                 : Saved Abatteur successfuly
+2019-08-29 19:03:47.655 [discord4j-events-1] INFO  PCompany                                 : Saved Journaliste successfuly
+2019-08-29 19:03:47.656 [discord4j-events-1] INFO  PCompany                                 : Saved Concessionnaire de Moto successfuly
+2019-08-29 19:03:47.658 [discord4j-events-1] INFO  PCompany                                 : Saved Raffineur successfuly
+2019-08-29 19:03:47.660 [discord4j-events-1] INFO  PCompany                                 : Saved Tequilala successfuly
+2019-08-29 19:03:47.663 [discord4j-events-1] INFO  PCompany                                 : Saved Vigneron successfuly
+2019-08-29 19:03:47.663 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Succesfuly saved CompanyDB
+2019-08-29 19:10:22.582 [main] INFO  io.blueservices.users.UsersDB            : Finished loading 0 users file into UsersDB..
+2019-08-29 19:10:22.624 [main] INFO  io.blueservices.entreprises.CompanyDB    : Finished loading 10 companies file into CompanyDB..
+2019-08-29 19:10:23.497 [main] INFO  discord4j.core.DiscordClientBuilder      : Shard 0 with Discord4J 3.0.8 (https://discord4j.com)
+2019-08-29 19:10:25.900 [reactor-http-nio-4] INFO  discord4j.gateway.client.0               : Connected to Gateway
+2019-08-29 19:10:25.900 [discord4j-events-1] INFO  BServices                                : BlueServices is now logged.
+2019-08-29 19:10:26.302 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「👕」Tailleur
+2019-08-29 19:10:26.391 [discord4j-events-1] INFO  PCompany                                 : Company Tailleur has run system
+2019-08-29 19:10:26.391 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🔨」Bûcheron
+2019-08-29 19:10:26.454 [discord4j-events-1] INFO  PCompany                                 : Company Bûcheron has run system
+2019-08-29 19:10:26.454 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎣」Pêcheur
+2019-08-29 19:10:26.512 [discord4j-events-1] INFO  PCompany                                 : Company Pêcheur has run system
+2019-08-29 19:10:26.512 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🚖」Taxi
+2019-08-29 19:10:26.575 [discord4j-events-1] INFO  PCompany                                 : Company Taxi has run system
+2019-08-29 19:10:26.576 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🐔」Abatteur
+2019-08-29 19:10:26.633 [discord4j-events-1] INFO  PCompany                                 : Company Abatteur has run system
+2019-08-29 19:10:26.634 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎥」Journaliste
+2019-08-29 19:10:26.698 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🛵」Concessionnaire de Moto
+2019-08-29 19:10:26.767 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「⛽」Raffineur
+2019-08-29 19:10:26.828 [discord4j-events-1] INFO  PCompany                                 : Company Raffineur has run system
+2019-08-29 19:10:26.828 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🥂」Tequilala
+2019-08-29 19:10:26.872 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🍇」Vigneron
+2019-08-29 19:10:26.928 [discord4j-events-1] INFO  PCompany                                 : Company Vigneron has run system
+2019-08-29 19:10:26.929 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : ________________________
+2019-08-29 19:10:26.958 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [15] Role: Attente d'entretien
+2019-08-29 19:10:26.958 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [16] Role: Intérimaires
+2019-08-29 19:10:26.958 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [17] Role: Employés
+2019-08-29 19:10:26.958 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [18] Role: Co - Patron
+2019-08-29 19:10:26.958 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Vigneron
+2019-08-29 19:10:26.959 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [20] Role: Patron Vigneron
+2019-08-29 19:10:26.959 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [22] Role: Attente d'entretien
+2019-08-29 19:10:26.959 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [23] Role: Intérimaires
+2019-08-29 19:10:26.959 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [24] Role: Employés
+2019-08-29 19:10:26.959 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [25] Role: Co-Patron
+2019-08-29 19:10:26.959 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Tequilala
+2019-08-29 19:10:26.959 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [27] Role: Patron Tequilala
+2019-08-29 19:10:26.959 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [29] Role: Attente d'entretien
+2019-08-29 19:10:26.959 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [30] Role: Intérimaires
+2019-08-29 19:10:26.960 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [31] Role: Employés
+2019-08-29 19:10:26.960 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [32] Role: Co - Patron
+2019-08-29 19:10:26.960 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Raffineur
+2019-08-29 19:10:26.960 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [34] Role: Patron Raffineur
+2019-08-29 19:10:26.960 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [43] Role: Attente d'entretien
+2019-08-29 19:10:26.961 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [44] Role: Employés
+2019-08-29 19:10:26.961 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [45] Role: Rédacteur
+2019-08-29 19:10:26.961 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Journaliste
+2019-08-29 19:10:26.961 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [47] Role: Patron Journaliste
+2019-08-29 19:10:26.961 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [49] Role: Attente d'entretien
+2019-08-29 19:10:26.961 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [50] Role: Intérimaires
+2019-08-29 19:10:26.961 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [51] Role: Employés
+2019-08-29 19:10:26.961 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [52] Role: Co - Patron
+2019-08-29 19:10:26.961 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Abatteur
+2019-08-29 19:10:26.962 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [54] Role: Patron Abatteur
+2019-08-29 19:10:26.962 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [56] Role: Attente d'entretien
+2019-08-29 19:10:26.962 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [57] Role: Intérimaires
+2019-08-29 19:10:26.962 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [58] Role: Employés
+2019-08-29 19:10:26.962 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [59] Role: Co - Patron
+2019-08-29 19:10:26.962 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Taxi
+2019-08-29 19:10:26.963 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [61] Role: Patron Taxi
+2019-08-29 19:10:26.963 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [63] Role: Attente d'entretien
+2019-08-29 19:10:26.963 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [64] Role: Intérimaires
+2019-08-29 19:10:26.963 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [65] Role: Employés
+2019-08-29 19:10:26.964 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [66] Role: Co - Patron
+2019-08-29 19:10:26.967 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Pêcheur
+2019-08-29 19:10:26.967 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [68] Role: Patron Pêcheur
+2019-08-29 19:10:26.968 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [70] Role: Attente d'entretien
+2019-08-29 19:10:26.970 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [71] Role: Intérimaires
+2019-08-29 19:10:26.970 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [72] Role: Employés
+2019-08-29 19:10:26.971 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [73] Role: Co - Patron
+2019-08-29 19:10:26.971 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Bûcheron
+2019-08-29 19:10:26.971 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [75] Role: Patron Bûcheron
+2019-08-29 19:10:26.971 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [77] Role: Attente d'entretien
+2019-08-29 19:10:26.971 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [78] Role: Intérimaires
+2019-08-29 19:10:26.972 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [79] Role: Employés
+2019-08-29 19:10:26.972 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [80] Role: Co - Patron
+2019-08-29 19:10:26.972 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Tailleur
+2019-08-29 19:10:26.972 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : [82] Role: Patron Tailleur
+2019-08-29 19:10:26.979 [discord4j-events-1] INFO  PCompany                                 : Saved Tailleur successfuly
+2019-08-29 19:10:26.982 [discord4j-events-1] INFO  PCompany                                 : Saved Bûcheron successfuly
+2019-08-29 19:10:27.001 [discord4j-events-1] INFO  PCompany                                 : Saved Pêcheur successfuly
+2019-08-29 19:10:27.009 [discord4j-events-1] INFO  PCompany                                 : Saved Taxi successfuly
+2019-08-29 19:10:27.011 [discord4j-events-1] INFO  PCompany                                 : Saved Abatteur successfuly
+2019-08-29 19:10:27.012 [discord4j-events-1] INFO  PCompany                                 : Saved Journaliste successfuly
+2019-08-29 19:10:27.014 [discord4j-events-1] INFO  PCompany                                 : Saved Concessionnaire de Moto successfuly
+2019-08-29 19:10:27.016 [discord4j-events-1] INFO  PCompany                                 : Saved Raffineur successfuly
+2019-08-29 19:10:27.018 [discord4j-events-1] INFO  PCompany                                 : Saved Tequilala successfuly
+2019-08-29 19:10:27.019 [discord4j-events-1] INFO  PCompany                                 : Saved Vigneron successfuly
+2019-08-29 19:10:27.020 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Succesfuly saved CompanyDB
+2019-08-29 19:21:37.910 [main] INFO  io.blueservices.users.UsersDB            : Finished loading 0 users file into UsersDB..
+2019-08-29 19:21:38.019 [main] INFO  io.blueservices.entreprises.CompanyDB    : Finished loading 10 companies file into CompanyDB..
+2019-08-29 19:21:39.207 [main] INFO  discord4j.core.DiscordClientBuilder      : Shard 0 with Discord4J 3.0.8 (https://discord4j.com)
+2019-08-29 19:21:43.660 [reactor-http-nio-4] INFO  discord4j.gateway.client.0               : Connected to Gateway
+2019-08-29 19:21:43.662 [discord4j-events-1] INFO  BServices                                : BlueServices is now logged.
+2019-08-29 19:21:43.985 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : ________________________
+2019-08-29 19:21:43.992 [discord4j-events-1] INFO  PCompany                                 : Saved Tailleur successfuly
+2019-08-29 19:21:43.995 [discord4j-events-1] INFO  PCompany                                 : Saved Bûcheron successfuly
+2019-08-29 19:21:43.997 [discord4j-events-1] INFO  PCompany                                 : Saved Pêcheur successfuly
+2019-08-29 19:21:43.998 [discord4j-events-1] INFO  PCompany                                 : Saved Taxi successfuly
+2019-08-29 19:21:44.000 [discord4j-events-1] INFO  PCompany                                 : Saved Abatteur successfuly
+2019-08-29 19:21:44.002 [discord4j-events-1] INFO  PCompany                                 : Saved Journaliste successfuly
+2019-08-29 19:21:44.005 [discord4j-events-1] INFO  PCompany                                 : Saved Concessionnaire de Moto successfuly
+2019-08-29 19:21:44.007 [discord4j-events-1] INFO  PCompany                                 : Saved Raffineur successfuly
+2019-08-29 19:21:44.010 [discord4j-events-1] INFO  PCompany                                 : Saved Tequilala successfuly
+2019-08-29 19:21:44.013 [discord4j-events-1] INFO  PCompany                                 : Saved Vigneron successfuly
+2019-08-29 19:21:44.013 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Succesfuly saved CompanyDB
+2019-08-29 19:21:44.555 [elastic-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「👕」Tailleur
+2019-08-29 19:21:44.571 [elastic-4] ERROR reactor.core.scheduler.Schedulers        : Scheduler worker in group main failed with an uncaught exception
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Invalid company : no recrutement or prime
+Caused by: java.lang.IllegalStateException: Invalid company : no recrutement or prime
+	at io.blueservices.entreprises.PlatformCompany.verifyValidity(PlatformCompany.java:132)
+	at io.blueservices.entreprises.CompanyDB.lambda$3(CompanyDB.java:99)
+	at reactor.core.publisher.LambdaSubscriber.onNext(LambdaSubscriber.java:130)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableSubscriber.onNext(FluxFilterFuseable.java:113)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:287)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:331)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onNext(MonoFlatMapMany.java:238)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:395)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:638)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onNext(FluxFlattenIterable.java:242)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:97)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1496)
+	at reactor.core.publisher.MonoCollectList$MonoCollectListSubscriber.onComplete(MonoCollectList.java:121)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onComplete(FluxOnAssembly.java:355)
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onComplete(FluxSwitchIfEmpty.java:78)
+	at reactor.core.publisher.FluxContextStart$ContextStartSubscriber.onComplete(FluxContextStart.java:122)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onComplete(FluxOnAssembly.java:355)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onComplete(FluxMapFuseable.java:336)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onComplete(FluxOnAssembly.java:355)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onComplete(FluxMapFuseable.java:336)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onComplete(FluxOnAssembly.java:355)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onComplete(FluxMapFuseable.java:336)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onComplete(FluxOnAssembly.java:355)
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onComplete(MonoFlatMapMany.java:248)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onComplete(FluxOnAssembly.java:355)
+	at reactor.core.publisher.FluxArray$ArraySubscription.fastPath(FluxArray.java:176)
+	at reactor.core.publisher.FluxArray$ArraySubscription.request(FluxArray.java:96)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.request(FluxOnAssembly.java:442)
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onSubscribeInner(MonoFlatMapMany.java:140)
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onSubscribe(MonoFlatMapMany.java:233)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onSubscribe(FluxOnAssembly.java:426)
+	at reactor.core.publisher.FluxArray.subscribe(FluxArray.java:53)
+	at reactor.core.publisher.FluxArray.subscribe(FluxArray.java:59)
+	at reactor.core.publisher.FluxOnAssembly.subscribe(FluxOnAssembly.java:122)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:7799)
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onNext(MonoFlatMapMany.java:184)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.MonoPublishOn$PublishOnSubscriber.run(MonoPublishOn.java:178)
+	at reactor.core.scheduler.ElasticScheduler$DirectScheduleTask.run(ElasticScheduler.java:292)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:50)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:27)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2019-08-29 19:22:01.236 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [24] Role: Attente d'entretien
+2019-08-29 19:22:01.236 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [25] Role: Intérimaires
+2019-08-29 19:22:01.236 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [26] Role: Employés
+2019-08-29 19:22:01.236 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [27] Role: Co - Patron
+2019-08-29 19:22:01.236 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Vigneron
+2019-08-29 19:22:01.237 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [29] Role: Patron Vigneron
+2019-08-29 19:22:01.237 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [31] Role: Attente d'entretien
+2019-08-29 19:22:01.237 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [32] Role: Intérimaires
+2019-08-29 19:22:01.237 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [33] Role: Employés
+2019-08-29 19:22:01.237 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [34] Role: Co-Patron
+2019-08-29 19:22:01.237 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Tequilala
+2019-08-29 19:22:01.237 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [36] Role: Patron Tequilala
+2019-08-29 19:22:01.237 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [38] Role: Attente d'entretien
+2019-08-29 19:22:01.238 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [39] Role: Intérimaires
+2019-08-29 19:22:01.238 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [40] Role: Employés
+2019-08-29 19:22:01.238 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [41] Role: Co - Patron
+2019-08-29 19:22:01.239 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Raffineur
+2019-08-29 19:22:01.239 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [43] Role: Patron Raffineur
+2019-08-29 19:22:01.240 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [52] Role: Attente d'entretien
+2019-08-29 19:22:01.240 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [53] Role: Employés
+2019-08-29 19:22:01.240 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [54] Role: Rédacteur
+2019-08-29 19:22:01.240 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Journaliste
+2019-08-29 19:22:01.240 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [56] Role: Patron Journaliste
+2019-08-29 19:22:01.240 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [58] Role: Attente d'entretien
+2019-08-29 19:22:01.240 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [59] Role: Intérimaires
+2019-08-29 19:22:01.240 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [60] Role: Employés
+2019-08-29 19:22:01.241 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [61] Role: Co - Patron
+2019-08-29 19:22:01.241 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Abatteur
+2019-08-29 19:22:01.241 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [63] Role: Patron Abatteur
+2019-08-29 19:22:01.241 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [65] Role: Attente d'entretien
+2019-08-29 19:22:01.241 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [66] Role: Intérimaires
+2019-08-29 19:22:01.241 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [67] Role: Employés
+2019-08-29 19:22:01.241 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [68] Role: Co - Patron
+2019-08-29 19:22:01.241 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Taxi
+2019-08-29 19:22:01.241 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [70] Role: Patron Taxi
+2019-08-29 19:22:01.242 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [72] Role: Attente d'entretien
+2019-08-29 19:22:01.242 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [73] Role: Intérimaires
+2019-08-29 19:22:01.242 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [74] Role: Employés
+2019-08-29 19:22:01.243 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [75] Role: Co - Patron
+2019-08-29 19:22:01.243 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Pêcheur
+2019-08-29 19:22:01.243 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [77] Role: Patron Pêcheur
+2019-08-29 19:22:01.243 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [79] Role: Attente d'entretien
+2019-08-29 19:22:01.244 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [80] Role: Intérimaires
+2019-08-29 19:22:01.244 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [81] Role: Employés
+2019-08-29 19:22:01.244 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [82] Role: Co - Patron
+2019-08-29 19:22:01.245 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Bûcheron
+2019-08-29 19:22:01.245 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [84] Role: Patron Bûcheron
+2019-08-29 19:22:01.245 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [86] Role: Attente d'entretien
+2019-08-29 19:22:01.245 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [87] Role: Intérimaires
+2019-08-29 19:22:01.245 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [88] Role: Employés
+2019-08-29 19:22:01.245 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [89] Role: Co - Patron
+2019-08-29 19:22:01.245 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Tailleur
+2019-08-29 19:22:01.245 [elastic-7] INFO  io.blueservices.entreprises.CompanyDB    : [91] Role: Patron Tailleur
+2019-08-29 19:22:01.447 [discord4j-events-1] INFO  PCompany                                 : 「👕」Patron Tailleur
+2019-08-29 19:24:59.318 [main] INFO  io.blueservices.users.UsersDB            : Finished loading 0 users file into UsersDB..
+2019-08-29 19:24:59.358 [main] INFO  io.blueservices.entreprises.CompanyDB    : Finished loading 10 companies file into CompanyDB..
+2019-08-29 19:25:00.343 [main] INFO  discord4j.core.DiscordClientBuilder      : Shard 0 with Discord4J 3.0.8 (https://discord4j.com)
+2019-08-29 19:25:05.046 [reactor-http-nio-4] INFO  discord4j.gateway.client.0               : Connected to Gateway
+2019-08-29 19:25:05.046 [discord4j-events-1] INFO  BServices                                : BlueServices is now logged.
+2019-08-29 19:25:05.588 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「👕」Tailleur
+2019-08-29 19:25:05.678 [discord4j-events-1] INFO  PCompany                                 : Company Tailleur has run system
+2019-08-29 19:25:05.678 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🔨」Bûcheron
+2019-08-29 19:25:05.760 [discord4j-events-1] INFO  PCompany                                 : Company Bûcheron has run system
+2019-08-29 19:25:05.760 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎣」Pêcheur
+2019-08-29 19:25:05.839 [discord4j-events-1] INFO  PCompany                                 : Company Pêcheur has run system
+2019-08-29 19:25:05.839 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🚖」Taxi
+2019-08-29 19:25:05.916 [discord4j-events-1] INFO  PCompany                                 : Company Taxi has run system
+2019-08-29 19:25:05.917 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🐔」Abatteur
+2019-08-29 19:25:06.005 [discord4j-events-1] INFO  PCompany                                 : Company Abatteur has run system
+2019-08-29 19:25:06.005 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎥」Journaliste
+2019-08-29 19:25:06.115 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🛵」Concessionnaire de Moto
+2019-08-29 19:25:06.228 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「⛽」Raffineur
+2019-08-29 19:25:06.333 [discord4j-events-1] INFO  PCompany                                 : Company Raffineur has run system
+2019-08-29 19:25:06.333 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🥂」Tequilala
+2019-08-29 19:25:06.406 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🍇」Vigneron
+2019-08-29 19:25:06.480 [discord4j-events-1] INFO  PCompany                                 : Company Vigneron has run system
+2019-08-29 19:25:06.481 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🔧」Mécano
+2019-08-29 19:25:06.482 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Creating new company Mécano with emoji (🔧) at category Snowflake{616684502042804224}
+2019-08-29 19:25:06.501 [discord4j-events-1] INFO  PCompany                                 : Saved Mécano successfuly
+2019-08-29 19:30:53.671 [main] INFO  io.blueservices.users.UsersDB            : Finished loading 0 users file into UsersDB..
+2019-08-29 19:30:53.842 [main] INFO  io.blueservices.entreprises.CompanyDB    : Finished loading 11 companies file into CompanyDB..
+2019-08-29 19:30:54.636 [main] INFO  discord4j.core.DiscordClientBuilder      : Shard 0 with Discord4J 3.0.8 (https://discord4j.com)
+2019-08-29 19:30:57.557 [discord4j-events-1] INFO  BServices                                : BlueServices is now logged.
+2019-08-29 19:30:57.557 [reactor-http-nio-4] INFO  discord4j.gateway.client.0               : Connected to Gateway
+2019-08-29 19:30:58.017 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「👕」Tailleur
+2019-08-29 19:30:58.072 [discord4j-events-1] INFO  PCompany                                 : Company Tailleur has run system
+2019-08-29 19:30:58.073 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🔨」Bûcheron
+2019-08-29 19:30:58.147 [discord4j-events-1] INFO  PCompany                                 : Company Bûcheron has run system
+2019-08-29 19:30:58.147 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎣」Pêcheur
+2019-08-29 19:30:58.195 [discord4j-events-1] INFO  PCompany                                 : Company Pêcheur has run system
+2019-08-29 19:30:58.195 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🚖」Taxi
+2019-08-29 19:30:58.240 [discord4j-events-1] INFO  PCompany                                 : Company Taxi has run system
+2019-08-29 19:30:58.240 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🐔」Abatteur
+2019-08-29 19:30:58.279 [discord4j-events-1] INFO  PCompany                                 : Company Abatteur has run system
+2019-08-29 19:30:58.279 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎥」Journaliste
+2019-08-29 19:30:58.323 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🛵」Concessionnaire de Moto
+2019-08-29 19:30:58.368 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「⛽」Raffineur
+2019-08-29 19:30:58.406 [discord4j-events-1] INFO  PCompany                                 : Company Raffineur has run system
+2019-08-29 19:30:58.406 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🥂」Tequilala
+2019-08-29 19:30:58.440 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🍇」Vigneron
+2019-08-29 19:30:58.474 [discord4j-events-1] INFO  PCompany                                 : Company Vigneron has run system
+2019-08-29 19:30:58.474 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🔧」Mécano
+2019-08-29 19:30:58.511 [discord4j-events-1] INFO  PCompany                                 : Company Mécano has run system
+2019-08-29 19:30:58.511 [discord4j-events-1] WARN  PCompany                                 : New company with run system !
+2019-08-29 19:30:58.512 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「👮」LSPD
+2019-08-29 19:30:58.512 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Creating new company LSPD with emoji (👮) at category Snowflake{616684541381443600}
+2019-08-29 19:30:58.546 [discord4j-events-1] INFO  PCompany                                 : Saved LSPD successfuly
+2019-08-29 19:32:48.409 [main] INFO  io.blueservices.users.UsersDB            : Finished loading 0 users file into UsersDB..
+2019-08-29 19:32:48.431 [main] INFO  io.blueservices.entreprises.CompanyDB    : Finished loading 12 companies file into CompanyDB..
+2019-08-29 19:32:48.985 [main] INFO  discord4j.core.DiscordClientBuilder      : Shard 0 with Discord4J 3.0.8 (https://discord4j.com)
+2019-08-29 19:32:51.562 [reactor-http-nio-4] INFO  discord4j.gateway.client.0               : Connected to Gateway
+2019-08-29 19:32:51.562 [discord4j-events-1] INFO  BServices                                : BlueServices is now logged.
+2019-08-29 19:32:51.779 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : ________________________
+2019-08-29 19:32:51.791 [discord4j-events-1] INFO  PCompany                                 : Saved Tailleur successfuly
+2019-08-29 19:32:51.793 [discord4j-events-1] INFO  PCompany                                 : Saved Bûcheron successfuly
+2019-08-29 19:32:51.801 [discord4j-events-1] INFO  PCompany                                 : Saved Pêcheur successfuly
+2019-08-29 19:32:51.803 [discord4j-events-1] INFO  PCompany                                 : Saved Taxi successfuly
+2019-08-29 19:32:51.808 [discord4j-events-1] INFO  PCompany                                 : Saved Abatteur successfuly
+2019-08-29 19:32:51.809 [discord4j-events-1] INFO  PCompany                                 : Saved Journaliste successfuly
+2019-08-29 19:32:51.816 [discord4j-events-1] INFO  PCompany                                 : Saved Concessionnaire de Moto successfuly
+2019-08-29 19:32:51.817 [discord4j-events-1] INFO  PCompany                                 : Saved Raffineur successfuly
+2019-08-29 19:32:51.828 [discord4j-events-1] INFO  PCompany                                 : Saved Tequilala successfuly
+2019-08-29 19:32:51.836 [discord4j-events-1] INFO  PCompany                                 : Saved Vigneron successfuly
+2019-08-29 19:32:51.837 [discord4j-events-1] INFO  PCompany                                 : Saved Mécano successfuly
+2019-08-29 19:32:51.838 [discord4j-events-1] INFO  PCompany                                 : Saved LSPD successfuly
+2019-08-29 19:32:51.838 [discord4j-events-1] INFO  io.blueservices.entreprises.CompanyDB    : Succesfuly saved CompanyDB
+2019-08-29 19:32:52.336 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [24] Role: Attente d'entretien
+2019-08-29 19:32:52.337 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [25] Role: Intérimaires
+2019-08-29 19:32:52.337 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [26] Role: Employés
+2019-08-29 19:32:52.337 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [27] Role: Co - Patron
+2019-08-29 19:32:52.337 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Vigneron
+2019-08-29 19:32:52.337 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [29] Role: Patron Vigneron
+2019-08-29 19:32:52.337 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [31] Role: Attente d'entretien
+2019-08-29 19:32:52.337 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [32] Role: Intérimaires
+2019-08-29 19:32:52.338 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [33] Role: Employés
+2019-08-29 19:32:52.338 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [34] Role: Co-Patron
+2019-08-29 19:32:52.338 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Tequilala
+2019-08-29 19:32:52.338 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [36] Role: Patron Tequilala
+2019-08-29 19:32:52.338 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [38] Role: Attente d'entretien
+2019-08-29 19:32:52.338 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [39] Role: Intérimaires
+2019-08-29 19:32:52.338 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [40] Role: Employés
+2019-08-29 19:32:52.338 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [41] Role: Co - Patron
+2019-08-29 19:32:52.338 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Raffineur
+2019-08-29 19:32:52.339 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [43] Role: Patron Raffineur
+2019-08-29 19:32:52.339 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [52] Role: Attente d'entretien
+2019-08-29 19:32:52.339 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [53] Role: Employés
+2019-08-29 19:32:52.339 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [54] Role: Rédacteur
+2019-08-29 19:32:52.339 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Journaliste
+2019-08-29 19:32:52.339 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [56] Role: Patron Journaliste
+2019-08-29 19:32:52.339 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [58] Role: Attente d'entretien
+2019-08-29 19:32:52.340 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [59] Role: Intérimaires
+2019-08-29 19:32:52.340 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [60] Role: Employés
+2019-08-29 19:32:52.340 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [61] Role: Co - Patron
+2019-08-29 19:32:52.340 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Abatteur
+2019-08-29 19:32:52.340 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [63] Role: Patron Abatteur
+2019-08-29 19:32:52.340 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [65] Role: Attente d'entretien
+2019-08-29 19:32:52.340 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [66] Role: Intérimaires
+2019-08-29 19:32:52.340 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [67] Role: Employés
+2019-08-29 19:32:52.340 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [68] Role: Co - Patron
+2019-08-29 19:32:52.341 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Taxi
+2019-08-29 19:32:52.341 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [70] Role: Patron Taxi
+2019-08-29 19:32:52.341 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [72] Role: Attente d'entretien
+2019-08-29 19:32:52.341 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [73] Role: Intérimaires
+2019-08-29 19:32:52.341 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [74] Role: Employés
+2019-08-29 19:32:52.341 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [75] Role: Co - Patron
+2019-08-29 19:32:52.341 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Pêcheur
+2019-08-29 19:32:52.341 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [77] Role: Patron Pêcheur
+2019-08-29 19:32:52.342 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [79] Role: Attente d'entretien
+2019-08-29 19:32:52.342 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [80] Role: Intérimaires
+2019-08-29 19:32:52.342 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [81] Role: Employés
+2019-08-29 19:32:52.342 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [82] Role: Co - Patron
+2019-08-29 19:32:52.342 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Bûcheron
+2019-08-29 19:32:52.342 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [84] Role: Patron Bûcheron
+2019-08-29 19:32:52.342 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [86] Role: Attente d'entretien
+2019-08-29 19:32:52.342 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [87] Role: Intérimaires
+2019-08-29 19:32:52.342 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [88] Role: Employés
+2019-08-29 19:32:52.342 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [89] Role: Co - Patron
+2019-08-29 19:32:52.343 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Tailleur
+2019-08-29 19:32:52.343 [elastic-6] INFO  io.blueservices.entreprises.CompanyDB    : [91] Role: Patron Tailleur
+2019-08-29 19:32:52.372 [elastic-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「👕」Tailleur
+2019-08-29 19:32:52.410 [elastic-4] INFO  PCompany                                 : Company Tailleur has run system
+2019-08-29 19:32:52.410 [elastic-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🔨」Bûcheron
+2019-08-29 19:32:52.441 [elastic-4] INFO  PCompany                                 : Company Bûcheron has run system
+2019-08-29 19:32:52.442 [elastic-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎣」Pêcheur
+2019-08-29 19:32:52.473 [elastic-4] INFO  PCompany                                 : Company Pêcheur has run system
+2019-08-29 19:32:52.473 [elastic-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🚖」Taxi
+2019-08-29 19:32:52.501 [elastic-4] INFO  PCompany                                 : Company Taxi has run system
+2019-08-29 19:32:52.501 [elastic-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🐔」Abatteur
+2019-08-29 19:32:52.529 [elastic-4] INFO  PCompany                                 : Company Abatteur has run system
+2019-08-29 19:32:52.529 [elastic-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎥」Journaliste
+2019-08-29 19:32:52.557 [elastic-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🛵」Concessionnaire de Moto
+2019-08-29 19:32:52.585 [elastic-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「⛽」Raffineur
+2019-08-29 19:32:52.610 [elastic-4] INFO  PCompany                                 : Company Raffineur has run system
+2019-08-29 19:32:52.610 [elastic-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🥂」Tequilala
+2019-08-29 19:32:52.633 [elastic-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🍇」Vigneron
+2019-08-29 19:32:52.655 [elastic-4] INFO  PCompany                                 : Company Vigneron has run system
+2019-08-29 19:32:52.655 [elastic-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🔧」Mécano
+2019-08-29 19:32:52.679 [elastic-4] INFO  PCompany                                 : Company Mécano has run system
+2019-08-29 19:32:52.679 [elastic-4] WARN  PCompany                                 : New company with run system !
+2019-08-29 19:32:52.679 [elastic-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「👮」LSPD
+2019-08-29 19:32:52.702 [elastic-4] ERROR reactor.core.scheduler.Schedulers        : Scheduler worker in group main failed with an uncaught exception
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalStateException: Invalid company"LSPD" : no recrutement or prime
+Caused by: java.lang.IllegalStateException: Invalid company"LSPD" : no recrutement or prime
+	at io.blueservices.entreprises.PlatformCompany.verifyValidity(PlatformCompany.java:132)
+	at io.blueservices.entreprises.CompanyDB.lambda$3(CompanyDB.java:99)
+	at reactor.core.publisher.LambdaSubscriber.onNext(LambdaSubscriber.java:130)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableSubscriber.onNext(FluxFilterFuseable.java:113)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:287)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:331)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onNext(MonoFlatMapMany.java:238)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:395)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:638)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onNext(FluxFlattenIterable.java:242)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:97)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1496)
+	at reactor.core.publisher.MonoCollectList$MonoCollectListSubscriber.onComplete(MonoCollectList.java:121)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onComplete(FluxOnAssembly.java:355)
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onComplete(FluxSwitchIfEmpty.java:78)
+	at reactor.core.publisher.FluxContextStart$ContextStartSubscriber.onComplete(FluxContextStart.java:122)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onComplete(FluxOnAssembly.java:355)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onComplete(FluxMapFuseable.java:336)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onComplete(FluxOnAssembly.java:355)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onComplete(FluxMapFuseable.java:336)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onComplete(FluxOnAssembly.java:355)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onComplete(FluxMapFuseable.java:336)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onComplete(FluxOnAssembly.java:355)
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onComplete(MonoFlatMapMany.java:248)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onComplete(FluxOnAssembly.java:355)
+	at reactor.core.publisher.FluxArray$ArraySubscription.fastPath(FluxArray.java:176)
+	at reactor.core.publisher.FluxArray$ArraySubscription.request(FluxArray.java:96)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.request(FluxOnAssembly.java:442)
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onSubscribeInner(MonoFlatMapMany.java:140)
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onSubscribe(MonoFlatMapMany.java:233)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onSubscribe(FluxOnAssembly.java:426)
+	at reactor.core.publisher.FluxArray.subscribe(FluxArray.java:53)
+	at reactor.core.publisher.FluxArray.subscribe(FluxArray.java:59)
+	at reactor.core.publisher.FluxOnAssembly.subscribe(FluxOnAssembly.java:122)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:7799)
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onNext(MonoFlatMapMany.java:184)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.MonoPublishOn$PublishOnSubscriber.run(MonoPublishOn.java:178)
+	at reactor.core.scheduler.ElasticScheduler$DirectScheduleTask.run(ElasticScheduler.java:292)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:50)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:27)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2019-08-29 19:32:53.460 [discord4j-events-1] INFO  PCompany                                 : Kayn Blake / Poulet
+2019-08-29 19:32:53.461 [discord4j-events-1] INFO  PCompany                                 : Peter Mclow
+2019-08-29 19:32:53.461 [discord4j-events-1] INFO  PCompany                                 : 「👕」Patron Tailleur
+2019-08-29 19:44:43.899 [main] INFO  io.blueservices.users.UsersDB            : Finished loading 0 users file into UsersDB..
+2019-08-29 19:44:44.196 [main] INFO  io.blueservices.entreprises.CompanyDB    : Finished loading 12 companies file into CompanyDB..
+2019-08-29 19:44:46.526 [main] INFO  discord4j.core.DiscordClientBuilder      : Shard 0 with Discord4J 3.0.8 (https://discord4j.com)
+2019-08-29 19:44:58.427 [discord4j-events-4] INFO  BServices                                : BlueServices is now logged.
+2019-08-29 19:44:58.427 [reactor-http-nio-4] INFO  discord4j.gateway.client.0               : Connected to Gateway
+2019-08-29 19:44:59.224 [discord4j-events-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「👕」Tailleur
+2019-08-29 19:44:59.361 [discord4j-events-4] INFO  PCompany                                 : Company Tailleur has run system
+2019-08-29 19:44:59.361 [discord4j-events-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🔨」Bûcheron
+2019-08-29 19:44:59.454 [discord4j-events-4] INFO  PCompany                                 : Company Bûcheron has run system
+2019-08-29 19:44:59.454 [discord4j-events-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎣」Pêcheur
+2019-08-29 19:44:59.537 [discord4j-events-4] INFO  PCompany                                 : Company Pêcheur has run system
+2019-08-29 19:44:59.538 [discord4j-events-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🚖」Taxi
+2019-08-29 19:44:59.614 [discord4j-events-4] INFO  PCompany                                 : Company Taxi has run system
+2019-08-29 19:44:59.614 [discord4j-events-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🐔」Abatteur
+2019-08-29 19:44:59.692 [discord4j-events-4] INFO  PCompany                                 : Company Abatteur has run system
+2019-08-29 19:44:59.692 [discord4j-events-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎥」Journaliste
+2019-08-29 19:44:59.773 [discord4j-events-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🛵」Concessionnaire de Moto
+2019-08-29 19:44:59.858 [discord4j-events-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「⛽」Raffineur
+2019-08-29 19:44:59.932 [discord4j-events-4] INFO  PCompany                                 : Company Raffineur has run system
+2019-08-29 19:44:59.932 [discord4j-events-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🥂」Tequilala
+2019-08-29 19:45:00.009 [discord4j-events-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🍇」Vigneron
+2019-08-29 19:45:00.143 [discord4j-events-4] INFO  PCompany                                 : Company Vigneron has run system
+2019-08-29 19:45:00.143 [discord4j-events-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🔧」Mécano
+2019-08-29 19:45:00.207 [discord4j-events-4] INFO  PCompany                                 : Company Mécano has run system
+2019-08-29 19:45:00.208 [discord4j-events-4] WARN  PCompany                                 : New company with run system !
+2019-08-29 19:45:00.208 [discord4j-events-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「👮」LSPD
+2019-08-29 19:45:00.285 [discord4j-events-4] INFO  PCompany                                 : Company LSPD has run system
+2019-08-29 19:45:00.286 [discord4j-events-4] WARN  PCompany                                 : New company with run system !
+2019-08-29 19:45:00.286 [discord4j-events-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🚑」ems
+2019-08-29 19:45:00.286 [discord4j-events-4] INFO  io.blueservices.entreprises.CompanyDB    : Creating new company ems with emoji (🚑) at category Snowflake{616684559848701992}
+2019-08-29 19:45:00.311 [discord4j-events-4] INFO  PCompany                                 : Saved ems successfuly
+2019-08-29 19:45:00.398 [discord4j-events-4] INFO  PCompany                                 : Company ems has run system
+2019-08-29 19:45:00.398 [discord4j-events-4] WARN  PCompany                                 : New company with run system !
+2019-08-29 19:45:00.398 [discord4j-events-4] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎓」Avocat
+2019-08-29 19:45:00.398 [discord4j-events-4] INFO  io.blueservices.entreprises.CompanyDB    : Creating new company Avocat with emoji (🎓) at category Snowflake{616684608863469674}
+2019-08-29 19:45:00.426 [discord4j-events-4] INFO  PCompany                                 : Saved Avocat successfuly
+2019-08-29 21:51:50.275 [main] INFO  io.blueservices.users.UsersDB            : Finished loading 0 users file into UsersDB..
+2019-08-29 21:51:50.398 [main] INFO  io.blueservices.entreprises.CompanyDB    : Finished loading 14 companies file into CompanyDB..
+2019-08-29 21:51:51.063 [main] INFO  discord4j.core.DiscordClientBuilder      : Shard 0 with Discord4J 3.0.8 (https://discord4j.com)
+2019-08-29 21:51:54.906 [discord4j-events-2] INFO  BServices                                : BlueServices is now logged.
+2019-08-29 21:51:54.906 [reactor-http-nio-4] INFO  discord4j.gateway.client.0               : Connected to Gateway
+2019-08-29 21:51:55.346 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「👕」Tailleur
+2019-08-29 21:51:55.411 [discord4j-events-2] INFO  PCompany                                 : Company Tailleur has run system
+2019-08-29 21:51:55.411 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🔨」Bûcheron
+2019-08-29 21:51:55.474 [discord4j-events-2] INFO  PCompany                                 : Company Bûcheron has run system
+2019-08-29 21:51:55.474 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎣」Pêcheur
+2019-08-29 21:51:55.532 [discord4j-events-2] INFO  PCompany                                 : Company Pêcheur has run system
+2019-08-29 21:51:55.533 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🚖」Taxi
+2019-08-29 21:51:55.588 [discord4j-events-2] INFO  PCompany                                 : Company Taxi has run system
+2019-08-29 21:51:55.588 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🐔」Abatteur
+2019-08-29 21:51:55.638 [discord4j-events-2] INFO  PCompany                                 : Company Abatteur has run system
+2019-08-29 21:51:55.638 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎥」Journaliste
+2019-08-29 21:51:55.690 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🛵」Concessionnaire de Moto
+2019-08-29 21:51:55.741 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「⛽」Raffineur
+2019-08-29 21:51:55.791 [discord4j-events-2] INFO  PCompany                                 : Company Raffineur has run system
+2019-08-29 21:51:55.791 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🥂」Tequilala
+2019-08-29 21:51:55.842 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🍇」Vigneron
+2019-08-29 21:51:55.891 [discord4j-events-2] INFO  PCompany                                 : Company Vigneron has run system
+2019-08-29 21:51:55.891 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🔧」Mécano
+2019-08-29 21:51:55.939 [discord4j-events-2] INFO  PCompany                                 : Company Mécano has run system
+2019-08-29 21:51:55.941 [discord4j-events-2] WARN  PCompany                                 : New company with run system !
+2019-08-29 21:51:55.941 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「👮」LSPD
+2019-08-29 21:55:54.326 [main] INFO  io.blueservices.users.UsersDB            : Finished loading 0 users file into UsersDB..
+2019-08-29 21:55:54.345 [main] INFO  io.blueservices.entreprises.CompanyDB    : Finished loading 14 companies file into CompanyDB..
+2019-08-29 21:55:54.770 [main] INFO  discord4j.core.DiscordClientBuilder      : Shard 0 with Discord4J 3.0.8 (https://discord4j.com)
+2019-08-29 21:55:56.354 [reactor-http-nio-4] INFO  discord4j.gateway.client.0               : Connected to Gateway
+2019-08-29 21:55:56.354 [discord4j-events-2] INFO  BServices                                : BlueServices is now logged.
+2019-08-29 21:55:56.794 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「👕」Tailleur
+2019-08-29 21:55:56.855 [discord4j-events-2] INFO  PCompany                                 : Company Tailleur has run system
+2019-08-29 21:55:56.855 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🔨」Bûcheron
+2019-08-29 21:55:56.914 [discord4j-events-2] INFO  PCompany                                 : Company Bûcheron has run system
+2019-08-29 21:55:56.915 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎣」Pêcheur
+2019-08-29 21:55:56.970 [discord4j-events-2] INFO  PCompany                                 : Company Pêcheur has run system
+2019-08-29 21:55:56.971 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🚖」Taxi
+2019-08-29 21:55:57.024 [discord4j-events-2] INFO  PCompany                                 : Company Taxi has run system
+2019-08-29 21:55:57.024 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🐔」Abatteur
+2019-08-29 21:55:57.073 [discord4j-events-2] INFO  PCompany                                 : Company Abatteur has run system
+2019-08-29 21:55:57.073 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎥」Journaliste
+2019-08-29 21:55:57.122 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🛵」Concessionnaire de Moto
+2019-08-29 21:55:57.170 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「⛽」Raffineur
+2019-08-29 21:55:57.216 [discord4j-events-2] INFO  PCompany                                 : Company Raffineur has run system
+2019-08-29 21:55:57.216 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🥂」Tequilala
+2019-08-29 21:55:57.263 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🍇」Vigneron
+2019-08-29 21:55:57.310 [discord4j-events-2] INFO  PCompany                                 : Company Vigneron has run system
+2019-08-29 21:55:57.310 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🔧」Mécano
+2019-08-29 21:55:57.355 [discord4j-events-2] INFO  PCompany                                 : Company Mécano has run system
+2019-08-29 21:55:57.355 [discord4j-events-2] WARN  PCompany                                 : New company with run system !
+2019-08-29 21:55:57.355 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「👮」LSPD
+2019-08-29 21:55:57.402 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🚑」ems
+2019-08-29 21:55:57.448 [discord4j-events-2] INFO  PCompany                                 : Company ems has run system
+2019-08-29 21:55:57.448 [discord4j-events-2] WARN  PCompany                                 : New company with run system !
+2019-08-29 21:55:57.448 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎓」Avocat
+2019-08-29 21:55:57.495 [discord4j-events-2] INFO  PCompany                                 : Company Avocat has run system
+2019-08-29 21:55:57.495 [discord4j-events-2] WARN  PCompany                                 : New company with run system !
+2019-08-29 21:55:57.495 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🏡」Immobilier
+2019-08-29 21:55:57.495 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Creating new company Immobilier with emoji (🏡) at category Snowflake{616684710499844240}
+2019-08-29 21:55:57.502 [discord4j-events-2] INFO  PCompany                                 : Saved Immobilier successfuly
+2019-08-29 21:55:57.549 [discord4j-events-2] INFO  PCompany                                 : Company Immobilier has run system
+2019-08-29 21:55:57.549 [discord4j-events-2] WARN  PCompany                                 : New company with run system !
+2019-08-29 21:55:57.549 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「💎」Mineur
+2019-08-29 21:55:57.549 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Creating new company Mineur with emoji (💎) at category Snowflake{616684764858155008}
+2019-08-29 21:55:57.553 [discord4j-events-2] INFO  PCompany                                 : Saved Mineur successfuly
+2019-08-29 21:55:57.599 [discord4j-events-2] INFO  PCompany                                 : Company Mineur has run system
+2019-08-29 21:55:57.599 [discord4j-events-2] WARN  PCompany                                 : New company with run system !
+2019-08-29 21:55:57.599 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🍹」Unicorn
+2019-08-29 21:55:57.599 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Creating new company Unicorn with emoji (🍹) at category Snowflake{616684837381865482}
+2019-08-29 21:55:57.604 [discord4j-events-2] INFO  PCompany                                 : Saved Unicorn successfuly
+2019-08-29 21:55:57.652 [discord4j-events-2] INFO  PCompany                                 : Company Unicorn has run system
+2019-08-29 21:55:57.652 [discord4j-events-2] WARN  PCompany                                 : New company with run system !
+2019-08-29 21:55:57.652 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🚗」Concessionaire
+2019-08-29 21:55:57.652 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Creating new company Concessionaire with emoji (🚗) at category Snowflake{616685157289820191}
+2019-08-29 21:55:57.656 [discord4j-events-2] INFO  PCompany                                 : Saved Concessionaire successfuly
+2019-08-29 21:55:57.703 [discord4j-events-2] INFO  PCompany                                 : Company Concessionaire has run system
+2019-08-29 21:55:57.703 [discord4j-events-2] WARN  PCompany                                 : New company with run system !
+2019-08-29 21:55:57.703 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : ________________________
+2019-08-29 21:55:57.852 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [23] Role: Attente d'entretien
+2019-08-29 21:55:57.852 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [24] Role: Intérimaires
+2019-08-29 21:55:57.852 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [25] Role: Employés
+2019-08-29 21:55:57.853 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [26] Role: Co - Patron
+2019-08-29 21:55:57.853 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [27] Role: Concessionnaire
+2019-08-29 21:55:57.853 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [28] Role: Patron Concessionnaire
+2019-08-29 21:55:57.853 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [30] Role: Attente d'entretien
+2019-08-29 21:55:57.853 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [31] Role: Intérimaires
+2019-08-29 21:55:57.853 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [32] Role: Employés
+2019-08-29 21:55:57.853 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [33] Role: Co - Patron
+2019-08-29 21:55:57.854 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Unicorn
+2019-08-29 21:55:57.854 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [35] Role: Patron Unicorn
+2019-08-29 21:55:57.854 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [37] Role: Attente d'entretien
+2019-08-29 21:55:57.854 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [38] Role: Intérimaires
+2019-08-29 21:55:57.854 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [39] Role: Employés
+2019-08-29 21:55:57.854 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [40] Role: Co - Patron
+2019-08-29 21:55:57.854 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Mineur
+2019-08-29 21:55:57.854 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [42] Role: Patron Mineur
+2019-08-29 21:55:57.854 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [44] Role: Attente d'entretien
+2019-08-29 21:55:57.855 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [45] Role: Intérimaires
+2019-08-29 21:55:57.855 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [46] Role: Employés
+2019-08-29 21:55:57.855 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [47] Role: Co - Patron
+2019-08-29 21:55:57.855 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Immobilier
+2019-08-29 21:55:57.855 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [49] Role: Patron Immobilier
+2019-08-29 21:55:57.855 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [51] Role: Attente d'entretien
+2019-08-29 21:55:57.855 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [52] Role: Intérimaires
+2019-08-29 21:55:57.855 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [53] Role: Employés
+2019-08-29 21:55:57.855 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [54] Role: Co - Patron
+2019-08-29 21:55:57.856 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Avocat
+2019-08-29 21:55:57.856 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [56] Role: Patron Avocat
+2019-08-29 21:55:57.856 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [58] Role: Attente d'entretien
+2019-08-29 21:55:57.856 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [59] Role: Recrue
+2019-08-29 21:55:57.856 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [60] Role: Employés
+2019-08-29 21:55:57.856 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [61] Role: Ambulancier
+2019-08-29 21:55:57.856 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [62] Role: Chirurgien
+2019-08-29 21:55:57.856 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [63] Role: Co - Patron
+2019-08-29 21:55:57.856 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [64] Role: EMS
+2019-08-29 21:55:57.857 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [65] Role: Patron EMS
+2019-08-29 21:55:57.857 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [67] Role: Attente d'entretien
+2019-08-29 21:55:57.857 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [68] Role: Cadet
+2019-08-29 21:55:57.857 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [69] Role: Officier
+2019-08-29 21:55:57.857 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [70] Role: Sergent
+2019-08-29 21:55:57.857 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [71] Role: Lieutenant
+2019-08-29 21:55:57.857 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [72] Role: Capitaine
+2019-08-29 21:55:57.857 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [73] Role: Agent
+2019-08-29 21:55:57.857 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [74] Role: Commandant
+2019-08-29 21:55:57.858 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [76] Role: Attente d'entretien
+2019-08-29 21:55:57.858 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [77] Role: Intérimaires
+2019-08-29 21:55:57.858 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [78] Role: Employés
+2019-08-29 21:55:57.858 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [79] Role: Co - Patron
+2019-08-29 21:55:57.858 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Mécano
+2019-08-29 21:55:57.858 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [81] Role: Patron Mécano
+2019-08-29 21:55:57.858 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [83] Role: Attente d'entretien
+2019-08-29 21:55:57.858 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [84] Role: Intérimaires
+2019-08-29 21:55:57.859 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [85] Role: Employés
+2019-08-29 21:55:57.859 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [86] Role: Co - Patron
+2019-08-29 21:55:57.859 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Vigneron
+2019-08-29 21:55:57.859 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [88] Role: Patron Vigneron
+2019-08-29 21:55:57.859 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [90] Role: Attente d'entretien
+2019-08-29 21:55:57.859 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [91] Role: Intérimaires
+2019-08-29 21:55:57.859 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [92] Role: Employés
+2019-08-29 21:55:57.859 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [93] Role: Co-Patron
+2019-08-29 21:55:57.859 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Tequilala
+2019-08-29 21:55:57.860 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [95] Role: Patron Tequilala
+2019-08-29 21:55:57.860 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [97] Role: Attente d'entretien
+2019-08-29 21:55:57.860 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [98] Role: Intérimaires
+2019-08-29 21:55:57.860 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [99] Role: Employés
+2019-08-29 21:55:57.860 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [100] Role: Co - Patron
+2019-08-29 21:55:57.860 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Raffineur
+2019-08-29 21:55:57.860 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [102] Role: Patron Raffineur
+2019-08-29 21:55:57.861 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [111] Role: Attente d'entretien
+2019-08-29 21:55:57.861 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [112] Role: Employés
+2019-08-29 21:55:57.861 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [113] Role: Rédacteur
+2019-08-29 21:55:57.861 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Journaliste
+2019-08-29 21:55:57.861 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [115] Role: Patron Journaliste
+2019-08-29 21:55:57.861 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [117] Role: Attente d'entretien
+2019-08-29 21:55:57.861 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [118] Role: Intérimaires
+2019-08-29 21:55:57.861 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [119] Role: Employés
+2019-08-29 21:55:57.861 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [120] Role: Co - Patron
+2019-08-29 21:55:57.861 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Abatteur
+2019-08-29 21:55:57.862 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [122] Role: Patron Abatteur
+2019-08-29 21:55:57.862 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [124] Role: Attente d'entretien
+2019-08-29 21:55:57.862 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [125] Role: Intérimaires
+2019-08-29 21:55:57.862 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [126] Role: Employés
+2019-08-29 21:55:57.862 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [127] Role: Co - Patron
+2019-08-29 21:55:57.862 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Taxi
+2019-08-29 21:55:57.862 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [129] Role: Patron Taxi
+2019-08-29 21:55:57.862 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [131] Role: Attente d'entretien
+2019-08-29 21:55:57.862 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [132] Role: Intérimaires
+2019-08-29 21:55:57.862 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [133] Role: Employés
+2019-08-29 21:55:57.862 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [134] Role: Co - Patron
+2019-08-29 21:55:57.863 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Pêcheur
+2019-08-29 21:55:57.863 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [136] Role: Patron Pêcheur
+2019-08-29 21:55:57.863 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [138] Role: Attente d'entretien
+2019-08-29 21:55:57.863 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [139] Role: Intérimaires
+2019-08-29 21:55:57.863 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [140] Role: Employés
+2019-08-29 21:55:57.864 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [141] Role: Co - Patron
+2019-08-29 21:55:57.864 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Bûcheron
+2019-08-29 21:55:57.864 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [143] Role: Patron Bûcheron
+2019-08-29 21:55:57.864 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [145] Role: Attente d'entretien
+2019-08-29 21:55:57.864 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [146] Role: Intérimaires
+2019-08-29 21:55:57.864 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [147] Role: Employés
+2019-08-29 21:55:57.864 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [148] Role: Co - Patron
+2019-08-29 21:55:57.865 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Tailleur
+2019-08-29 21:55:57.865 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : [150] Role: Patron Tailleur
+2019-08-29 21:55:57.871 [discord4j-events-2] INFO  PCompany                                 : Saved Tailleur successfuly
+2019-08-29 21:55:57.877 [discord4j-events-2] INFO  PCompany                                 : Saved Bûcheron successfuly
+2019-08-29 21:55:57.881 [discord4j-events-2] INFO  PCompany                                 : Saved Pêcheur successfuly
+2019-08-29 21:55:57.885 [discord4j-events-2] INFO  PCompany                                 : Saved Taxi successfuly
+2019-08-29 21:55:57.888 [discord4j-events-2] INFO  PCompany                                 : Saved Abatteur successfuly
+2019-08-29 21:55:57.891 [discord4j-events-2] INFO  PCompany                                 : Saved Journaliste successfuly
+2019-08-29 21:55:57.892 [discord4j-events-2] INFO  PCompany                                 : Saved Concessionnaire de Moto successfuly
+2019-08-29 21:55:57.896 [discord4j-events-2] INFO  PCompany                                 : Saved Raffineur successfuly
+2019-08-29 21:55:57.899 [discord4j-events-2] INFO  PCompany                                 : Saved Tequilala successfuly
+2019-08-29 21:55:57.909 [discord4j-events-2] INFO  PCompany                                 : Saved Vigneron successfuly
+2019-08-29 21:55:57.913 [discord4j-events-2] INFO  PCompany                                 : Saved Mécano successfuly
+2019-08-29 21:55:57.916 [discord4j-events-2] INFO  PCompany                                 : Saved LSPD successfuly
+2019-08-29 21:55:57.920 [discord4j-events-2] INFO  PCompany                                 : Saved ems successfuly
+2019-08-29 21:55:57.923 [discord4j-events-2] INFO  PCompany                                 : Saved Avocat successfuly
+2019-08-29 21:55:57.927 [discord4j-events-2] INFO  PCompany                                 : Saved Immobilier successfuly
+2019-08-29 21:55:57.930 [discord4j-events-2] INFO  PCompany                                 : Saved Mineur successfuly
+2019-08-29 21:55:57.933 [discord4j-events-2] INFO  PCompany                                 : Saved Unicorn successfuly
+2019-08-29 21:55:57.937 [discord4j-events-2] INFO  PCompany                                 : Saved Concessionaire successfuly
+2019-08-29 21:55:57.937 [discord4j-events-2] INFO  io.blueservices.entreprises.CompanyDB    : Succesfuly saved CompanyDB
+2019-08-29 21:56:40.812 [main] INFO  io.blueservices.users.UsersDB            : Finished loading 0 users file into UsersDB..
+2019-08-29 21:56:40.833 [main] INFO  io.blueservices.entreprises.CompanyDB    : Finished loading 18 companies file into CompanyDB..
+2019-08-29 21:56:41.290 [main] INFO  discord4j.core.DiscordClientBuilder      : Shard 0 with Discord4J 3.0.8 (https://discord4j.com)
+2019-08-29 21:56:43.302 [discord4j-events-3] INFO  BServices                                : BlueServices is now logged.
+2019-08-29 21:56:43.302 [reactor-http-nio-4] INFO  discord4j.gateway.client.0               : Connected to Gateway
+2019-08-29 21:56:43.704 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「👕」Tailleur
+2019-08-29 21:56:43.772 [discord4j-events-3] INFO  PCompany                                 : Company Tailleur has run system
+2019-08-29 21:56:43.772 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🔨」Bûcheron
+2019-08-29 21:56:43.830 [discord4j-events-3] INFO  PCompany                                 : Company Bûcheron has run system
+2019-08-29 21:56:43.830 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎣」Pêcheur
+2019-08-29 21:56:43.919 [discord4j-events-3] INFO  PCompany                                 : Company Pêcheur has run system
+2019-08-29 21:56:43.919 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🚖」Taxi
+2019-08-29 21:56:43.970 [discord4j-events-3] INFO  PCompany                                 : Company Taxi has run system
+2019-08-29 21:56:43.970 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🐔」Abatteur
+2019-08-29 21:56:44.019 [discord4j-events-3] INFO  PCompany                                 : Company Abatteur has run system
+2019-08-29 21:56:44.019 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎥」Journaliste
+2019-08-29 21:56:44.067 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🛵」Concessionnaire de Moto
+2019-08-29 21:56:44.122 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「⛽」Raffineur
+2019-08-29 21:56:44.123 [elastic-5] ERROR reactor.core.scheduler.Schedulers        : Scheduler worker in group main failed with an uncaught exception
+reactor.core.Exceptions$ErrorCallbackNotImplemented: ClientException{request=ClientRequest{method=PUT, url='/channels/614597670451019776/messages/614607969698709556/reactions/arrows_counterclockwise/@me', headers=DefaultHttpHeaders[]}, status=400 Bad Request, headers=DefaultHttpHeaders[Date: Thu, 29 Aug 2019 19:56:44 GMT, Content-Type: application/json, Content-Length: 43, Connection: keep-alive, Set-Cookie: __cfduid=d616dda3dddf799b77934e096ace57a081567108604; expires=Fri, 28-Aug-20 19:56:44 GMT; path=/; domain=.discordapp.com; HttpOnly, Strict-Transport-Security: max-age=31536000; includeSubDomains, X-RateLimit-Bucket: d6b7697c78814ecd72bb20df05517c78, X-RateLimit-Limit: 1, X-RateLimit-Remaining: 0, X-RateLimit-Reset: 1567108605, X-RateLimit-Reset-After: 1, Via: 1.1 google, Alt-Svc: clear, Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct", Server: cloudflare, CF-RAY: 50e1170a0f25cdb7-CDG], errorResponse=ErrorResponse{fields={code=10014, message=Unknown Emoji}}}
+Caused by: discord4j.rest.http.client.ClientException: PUT /channels/614597670451019776/messages/614607969698709556/reactions/arrows_counterclockwise/@me returned 400 Bad Request with response {code=10014, message=Unknown Emoji}
+	at discord4j.rest.http.client.DiscordWebClient.clientException(DiscordWebClient.java:171)
+	at discord4j.rest.http.client.DiscordWebClient.lambda$null$7(DiscordWebClient.java:148)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:118)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1510)
+	at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:241)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.onNext(FluxPeekFuseable.java:204)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxHandleFuseable$HandleFuseableSubscriber.onNext(FluxHandleFuseable.java:180)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:287)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxUsing$UsingFuseableSubscriber.onNext(FluxUsing.java:350)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableSubscriber.onNext(FluxFilterFuseable.java:113)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1510)
+	at reactor.core.publisher.MonoReduceSeed$ReduceSeedSubscriber.onComplete(MonoReduceSeed.java:156)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onComplete(FluxOnAssembly.java:355)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:136)
+	at reactor.netty.channel.FluxReceive.terminateReceiver(FluxReceive.java:390)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:197)
+	at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:338)
+	at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:359)
+	at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:408)
+	at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:555)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:91)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:438)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:297)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:253)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1478)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1227)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1274)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:502)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:441)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:278)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1408)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:682)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Unknown Source)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Assembly trace from producer [reactor.core.publisher.MonoFlatMap] :
+	reactor.core.publisher.Mono.flatMap(Mono.java:2490)
+	discord4j.rest.http.client.DiscordWebClient.lambda$null$10(DiscordWebClient.java:148)
+Error has been observed by the following operator(s):
+	|_	Mono.flatMap ⇢ discord4j.rest.http.client.DiscordWebClient.lambda$null$10(DiscordWebClient.java:148)
+	|_	Mono.switchIfEmpty ⇢ discord4j.rest.http.client.DiscordWebClient.lambda$null$10(DiscordWebClient.java:149)
+	|_	Mono.doFinally ⇢ reactor.netty.http.client.HttpClientFinalizer.lambda$responseSingle$7(HttpClientFinalizer.java:97)
+	|_	Mono.flatMap ⇢ reactor.netty.http.client.HttpClientFinalizer.responseSingle(HttpClientFinalizer.java:95)
+	|_	Mono.flatMap ⇢ discord4j.rest.http.client.DiscordWebClient.exchange(DiscordWebClient.java:136)
+	|_	Mono.flatMap ⇢ discord4j.rest.request.RequestStream$RequestSubscriber.hookOnNext(RequestStream.java:190)
+	|_	Flux.concatMap ⇢ reactor.retry.DefaultRetry.apply(DefaultRetry.java:115)
+	|_	Mono.retryWhen ⇢ discord4j.rest.request.RequestStream$RequestSubscriber.hookOnNext(RequestStream.java:191)
+	|_	Mono.transform ⇢ discord4j.rest.request.RequestStream$RequestSubscriber.hookOnNext(RequestStream.java:192)
+	|_	Flux.concatMap ⇢ reactor.retry.DefaultRetry.apply(DefaultRetry.java:115)
+	|_	Mono.retryWhen ⇢ discord4j.rest.request.RequestStream$RequestSubscriber.hookOnNext(RequestStream.java:193)
+	|_	Mono.log ⇢ discord4j.rest.request.RequestStream$RequestSubscriber.hookOnNext(RequestStream.java:194)
+	|_	Mono.doFinally ⇢ discord4j.rest.request.RequestStream$RequestSubscriber.hookOnNext(RequestStream.java:195)
+	|_	Flux.usingWhen ⇢ discord4j.rest.request.SemaphoreGlobalRateLimiter.withLimiter(SemaphoreGlobalRateLimiter.java:87)
+	|_	Mono.flatMap ⇢ discord4j.rest.request.DefaultRouter.exchange(DefaultRouter.java:92)
+	|_	Mono.publishOn ⇢ discord4j.rest.request.DefaultRouter.exchange(DefaultRouter.java:101)
+
+2019-08-29 21:56:44.168 [discord4j-events-3] INFO  PCompany                                 : Company Raffineur has run system
+2019-08-29 21:56:44.168 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🥂」Tequilala
+2019-08-29 21:56:44.216 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🍇」Vigneron
+2019-08-29 21:56:44.265 [discord4j-events-3] INFO  PCompany                                 : Company Vigneron has run system
+2019-08-29 21:56:44.265 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🔧」Mécano
+2019-08-29 21:56:44.315 [discord4j-events-3] INFO  PCompany                                 : Company Mécano has run system
+2019-08-29 21:56:44.315 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「👮」LSPD
+2019-08-29 21:56:44.361 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🚑」ems
+2019-08-29 21:56:44.411 [discord4j-events-3] INFO  PCompany                                 : Company ems has run system
+2019-08-29 21:56:44.411 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🎓」Avocat
+2019-08-29 21:56:44.458 [discord4j-events-3] INFO  PCompany                                 : Company Avocat has run system
+2019-08-29 21:56:44.459 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🏡」Immobilier
+2019-08-29 21:56:44.503 [discord4j-events-3] INFO  PCompany                                 : Company Immobilier has run system
+2019-08-29 21:56:44.503 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「💎」Mineur
+2019-08-29 21:56:44.525 [elastic-4] ERROR reactor.core.scheduler.Schedulers        : Scheduler worker in group main failed with an uncaught exception
+reactor.core.Exceptions$ErrorCallbackNotImplemented: ClientException{request=ClientRequest{method=PUT, url='/channels/614597670451019776/messages/614607969698709556/reactions/heart/@me', headers=DefaultHttpHeaders[]}, status=400 Bad Request, headers=DefaultHttpHeaders[Date: Thu, 29 Aug 2019 19:56:45 GMT, Content-Type: application/json, Content-Length: 43, Connection: keep-alive, Set-Cookie: __cfduid=dc342c15e1250694e1ebad4ec1ac8cf7d1567108604; expires=Fri, 28-Aug-20 19:56:44 GMT; path=/; domain=.discordapp.com; HttpOnly, Strict-Transport-Security: max-age=31536000; includeSubDomains, X-RateLimit-Bucket: d6b7697c78814ecd72bb20df05517c78, X-RateLimit-Limit: 1, X-RateLimit-Remaining: 0, X-RateLimit-Reset: 1567108606, X-RateLimit-Reset-After: 1, Via: 1.1 google, Alt-Svc: clear, Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct", Server: cloudflare, CF-RAY: 50e1170ceee369bc-CDG], errorResponse=ErrorResponse{fields={code=10014, message=Unknown Emoji}}}
+Caused by: discord4j.rest.http.client.ClientException: PUT /channels/614597670451019776/messages/614607969698709556/reactions/heart/@me returned 400 Bad Request with response {code=10014, message=Unknown Emoji}
+	at discord4j.rest.http.client.DiscordWebClient.clientException(DiscordWebClient.java:171)
+	at discord4j.rest.http.client.DiscordWebClient.lambda$null$7(DiscordWebClient.java:148)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:118)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1510)
+	at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:241)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.onNext(FluxPeekFuseable.java:204)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxHandleFuseable$HandleFuseableSubscriber.onNext(FluxHandleFuseable.java:180)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:287)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxUsing$UsingFuseableSubscriber.onNext(FluxUsing.java:350)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableSubscriber.onNext(FluxFilterFuseable.java:113)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:345)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1510)
+	at reactor.core.publisher.MonoReduceSeed$ReduceSeedSubscriber.onComplete(MonoReduceSeed.java:156)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onComplete(FluxOnAssembly.java:355)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:136)
+	at reactor.netty.channel.FluxReceive.terminateReceiver(FluxReceive.java:390)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:197)
+	at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:338)
+	at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:359)
+	at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:408)
+	at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:555)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:91)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:438)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:297)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:253)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1478)
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1227)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1274)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:502)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:441)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:278)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1408)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:682)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Unknown Source)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Assembly trace from producer [reactor.core.publisher.MonoFlatMap] :
+	reactor.core.publisher.Mono.flatMap(Mono.java:2490)
+	discord4j.rest.http.client.DiscordWebClient.lambda$null$10(DiscordWebClient.java:148)
+Error has been observed by the following operator(s):
+	|_	Mono.flatMap ⇢ discord4j.rest.http.client.DiscordWebClient.lambda$null$10(DiscordWebClient.java:148)
+	|_	Mono.switchIfEmpty ⇢ discord4j.rest.http.client.DiscordWebClient.lambda$null$10(DiscordWebClient.java:149)
+	|_	Mono.doFinally ⇢ reactor.netty.http.client.HttpClientFinalizer.lambda$responseSingle$7(HttpClientFinalizer.java:97)
+	|_	Mono.flatMap ⇢ reactor.netty.http.client.HttpClientFinalizer.responseSingle(HttpClientFinalizer.java:95)
+	|_	Mono.flatMap ⇢ discord4j.rest.http.client.DiscordWebClient.exchange(DiscordWebClient.java:136)
+	|_	Mono.flatMap ⇢ discord4j.rest.request.RequestStream$RequestSubscriber.hookOnNext(RequestStream.java:190)
+	|_	Flux.concatMap ⇢ reactor.retry.DefaultRetry.apply(DefaultRetry.java:115)
+	|_	Mono.retryWhen ⇢ discord4j.rest.request.RequestStream$RequestSubscriber.hookOnNext(RequestStream.java:191)
+	|_	Mono.transform ⇢ discord4j.rest.request.RequestStream$RequestSubscriber.hookOnNext(RequestStream.java:192)
+	|_	Flux.concatMap ⇢ reactor.retry.DefaultRetry.apply(DefaultRetry.java:115)
+	|_	Mono.retryWhen ⇢ discord4j.rest.request.RequestStream$RequestSubscriber.hookOnNext(RequestStream.java:193)
+	|_	Mono.log ⇢ discord4j.rest.request.RequestStream$RequestSubscriber.hookOnNext(RequestStream.java:194)
+	|_	Mono.doFinally ⇢ discord4j.rest.request.RequestStream$RequestSubscriber.hookOnNext(RequestStream.java:195)
+	|_	Flux.usingWhen ⇢ discord4j.rest.request.SemaphoreGlobalRateLimiter.withLimiter(SemaphoreGlobalRateLimiter.java:87)
+	|_	Mono.flatMap ⇢ discord4j.rest.request.DefaultRouter.exchange(DefaultRouter.java:92)
+	|_	Mono.publishOn ⇢ discord4j.rest.request.DefaultRouter.exchange(DefaultRouter.java:101)
+
+2019-08-29 21:56:44.552 [discord4j-events-3] INFO  PCompany                                 : Company Mineur has run system
+2019-08-29 21:56:44.552 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🍹」Unicorn
+2019-08-29 21:56:44.603 [discord4j-events-3] INFO  PCompany                                 : Company Unicorn has run system
+2019-08-29 21:56:44.603 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : Detecting : 「🚗」Concessionaire
+2019-08-29 21:56:44.651 [discord4j-events-3] INFO  PCompany                                 : Company Concessionaire has run system
+2019-08-29 21:56:44.651 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : ________________________
+2019-08-29 21:56:44.697 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [23] Role: Attente d'entretien
+2019-08-29 21:56:44.697 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [24] Role: Intérimaires
+2019-08-29 21:56:44.697 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [25] Role: Employés
+2019-08-29 21:56:44.697 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [26] Role: Co - Patron
+2019-08-29 21:56:44.697 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [27] Role: Concessionnaire
+2019-08-29 21:56:44.698 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [28] Role: Patron Concessionnaire
+2019-08-29 21:56:44.698 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [30] Role: Attente d'entretien
+2019-08-29 21:56:44.698 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [31] Role: Intérimaires
+2019-08-29 21:56:44.698 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [32] Role: Employés
+2019-08-29 21:56:44.698 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [33] Role: Co - Patron
+2019-08-29 21:56:44.698 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Unicorn
+2019-08-29 21:56:44.698 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [35] Role: Patron Unicorn
+2019-08-29 21:56:44.698 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [37] Role: Attente d'entretien
+2019-08-29 21:56:44.698 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [38] Role: Intérimaires
+2019-08-29 21:56:44.699 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [39] Role: Employés
+2019-08-29 21:56:44.699 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [40] Role: Co - Patron
+2019-08-29 21:56:44.699 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Mineur
+2019-08-29 21:56:44.699 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [42] Role: Patron Mineur
+2019-08-29 21:56:44.699 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [44] Role: Attente d'entretien
+2019-08-29 21:56:44.699 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [45] Role: Intérimaires
+2019-08-29 21:56:44.699 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [46] Role: Employés
+2019-08-29 21:56:44.699 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [47] Role: Co - Patron
+2019-08-29 21:56:44.699 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Immobilier
+2019-08-29 21:56:44.699 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [49] Role: Patron Immobilier
+2019-08-29 21:56:44.699 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [51] Role: Attente d'entretien
+2019-08-29 21:56:44.700 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [52] Role: Intérimaires
+2019-08-29 21:56:44.700 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [53] Role: Employés
+2019-08-29 21:56:44.700 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [54] Role: Co - Patron
+2019-08-29 21:56:44.700 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Avocat
+2019-08-29 21:56:44.700 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [56] Role: Patron Avocat
+2019-08-29 21:56:44.700 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [58] Role: Attente d'entretien
+2019-08-29 21:56:44.700 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [59] Role: Recrue
+2019-08-29 21:56:44.700 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [60] Role: Employés
+2019-08-29 21:56:44.700 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [61] Role: Ambulancier
+2019-08-29 21:56:44.700 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [62] Role: Chirurgien
+2019-08-29 21:56:44.700 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [63] Role: Co - Patron
+2019-08-29 21:56:44.700 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [64] Role: EMS
+2019-08-29 21:56:44.701 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [65] Role: Patron EMS
+2019-08-29 21:56:44.701 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [67] Role: Attente d'entretien
+2019-08-29 21:56:44.701 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [68] Role: Cadet
+2019-08-29 21:56:44.701 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [69] Role: Officier
+2019-08-29 21:56:44.701 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [70] Role: Sergent
+2019-08-29 21:56:44.701 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [71] Role: Lieutenant
+2019-08-29 21:56:44.701 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [72] Role: Capitaine
+2019-08-29 21:56:44.701 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [73] Role: Agent
+2019-08-29 21:56:44.701 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [74] Role: Commandant
+2019-08-29 21:56:44.701 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [76] Role: Attente d'entretien
+2019-08-29 21:56:44.701 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [77] Role: Intérimaires
+2019-08-29 21:56:44.701 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [78] Role: Employés
+2019-08-29 21:56:44.701 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [79] Role: Co - Patron
+2019-08-29 21:56:44.702 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Mécano
+2019-08-29 21:56:44.702 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [81] Role: Patron Mécano
+2019-08-29 21:56:44.702 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [83] Role: Attente d'entretien
+2019-08-29 21:56:44.702 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [84] Role: Intérimaires
+2019-08-29 21:56:44.702 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [85] Role: Employés
+2019-08-29 21:56:44.702 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [86] Role: Co - Patron
+2019-08-29 21:56:44.702 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Vigneron
+2019-08-29 21:56:44.702 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [88] Role: Patron Vigneron
+2019-08-29 21:56:44.702 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [90] Role: Attente d'entretien
+2019-08-29 21:56:44.702 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [91] Role: Intérimaires
+2019-08-29 21:56:44.703 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [92] Role: Employés
+2019-08-29 21:56:44.703 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [93] Role: Co-Patron
+2019-08-29 21:56:44.703 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Tequilala
+2019-08-29 21:56:44.703 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [95] Role: Patron Tequilala
+2019-08-29 21:56:44.703 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [97] Role: Attente d'entretien
+2019-08-29 21:56:44.703 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [98] Role: Intérimaires
+2019-08-29 21:56:44.703 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [99] Role: Employés
+2019-08-29 21:56:44.703 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [100] Role: Co - Patron
+2019-08-29 21:56:44.703 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Raffineur
+2019-08-29 21:56:44.703 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [102] Role: Patron Raffineur
+2019-08-29 21:56:44.704 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [111] Role: Attente d'entretien
+2019-08-29 21:56:44.704 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [112] Role: Employés
+2019-08-29 21:56:44.704 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [113] Role: Rédacteur
+2019-08-29 21:56:44.704 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Journaliste
+2019-08-29 21:56:44.704 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [115] Role: Patron Journaliste
+2019-08-29 21:56:44.704 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [117] Role: Attente d'entretien
+2019-08-29 21:56:44.704 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [118] Role: Intérimaires
+2019-08-29 21:56:44.704 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [119] Role: Employés
+2019-08-29 21:56:44.704 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [120] Role: Co - Patron
+2019-08-29 21:56:44.705 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Abatteur
+2019-08-29 21:56:44.705 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [122] Role: Patron Abatteur
+2019-08-29 21:56:44.705 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [124] Role: Attente d'entretien
+2019-08-29 21:56:44.705 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [125] Role: Intérimaires
+2019-08-29 21:56:44.705 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [126] Role: Employés
+2019-08-29 21:56:44.705 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [127] Role: Co - Patron
+2019-08-29 21:56:44.705 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Taxi
+2019-08-29 21:56:44.705 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [129] Role: Patron Taxi
+2019-08-29 21:56:44.705 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [131] Role: Attente d'entretien
+2019-08-29 21:56:44.705 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [132] Role: Intérimaires
+2019-08-29 21:56:44.705 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [133] Role: Employés
+2019-08-29 21:56:44.705 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [134] Role: Co - Patron
+2019-08-29 21:56:44.705 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Pêcheur
+2019-08-29 21:56:44.705 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [136] Role: Patron Pêcheur
+2019-08-29 21:56:44.706 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [138] Role: Attente d'entretien
+2019-08-29 21:56:44.706 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [139] Role: Intérimaires
+2019-08-29 21:56:44.706 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [140] Role: Employés
+2019-08-29 21:56:44.706 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [141] Role: Co - Patron
+2019-08-29 21:56:44.706 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Bûcheron
+2019-08-29 21:56:44.706 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [143] Role: Patron Bûcheron
+2019-08-29 21:56:44.706 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [145] Role: Attente d'entretien
+2019-08-29 21:56:44.706 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [146] Role: Intérimaires
+2019-08-29 21:56:44.706 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [147] Role: Employés
+2019-08-29 21:56:44.706 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [148] Role: Co - Patron
+2019-08-29 21:56:44.706 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : In Company Role : Tailleur
+2019-08-29 21:56:44.706 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : [150] Role: Patron Tailleur
+2019-08-29 21:56:44.710 [discord4j-events-3] INFO  PCompany                                 : Saved Tailleur successfuly
+2019-08-29 21:56:44.712 [discord4j-events-3] INFO  PCompany                                 : Saved Bûcheron successfuly
+2019-08-29 21:56:44.713 [discord4j-events-3] INFO  PCompany                                 : Saved Pêcheur successfuly
+2019-08-29 21:56:44.715 [discord4j-events-3] INFO  PCompany                                 : Saved Taxi successfuly
+2019-08-29 21:56:44.716 [discord4j-events-3] INFO  PCompany                                 : Saved Abatteur successfuly
+2019-08-29 21:56:44.718 [discord4j-events-3] INFO  PCompany                                 : Saved Journaliste successfuly
+2019-08-29 21:56:44.720 [discord4j-events-3] INFO  PCompany                                 : Saved Concessionnaire de Moto successfuly
+2019-08-29 21:56:44.721 [discord4j-events-3] INFO  PCompany                                 : Saved Raffineur successfuly
+2019-08-29 21:56:44.722 [discord4j-events-3] INFO  PCompany                                 : Saved Tequilala successfuly
+2019-08-29 21:56:44.724 [discord4j-events-3] INFO  PCompany                                 : Saved Vigneron successfuly
+2019-08-29 21:56:44.725 [discord4j-events-3] INFO  PCompany                                 : Saved Mécano successfuly
+2019-08-29 21:56:44.726 [discord4j-events-3] INFO  PCompany                                 : Saved LSPD successfuly
+2019-08-29 21:56:44.728 [discord4j-events-3] INFO  PCompany                                 : Saved ems successfuly
+2019-08-29 21:56:44.729 [discord4j-events-3] INFO  PCompany                                 : Saved Avocat successfuly
+2019-08-29 21:56:44.730 [discord4j-events-3] INFO  PCompany                                 : Saved Immobilier successfuly
+2019-08-29 21:56:44.734 [discord4j-events-3] INFO  PCompany                                 : Saved Mineur successfuly
+2019-08-29 21:56:44.735 [discord4j-events-3] INFO  PCompany                                 : Saved Unicorn successfuly
+2019-08-29 21:56:44.740 [discord4j-events-3] INFO  PCompany                                 : Saved Concessionaire successfuly
+2019-08-29 21:56:44.740 [discord4j-events-3] INFO  io.blueservices.entreprises.CompanyDB    : Succesfuly saved CompanyDB
+2019-08-29 21:56:44.828 [discord4j-events-3] INFO  PCompany                                 : Kayn Blake / Poulet
+2019-08-29 21:56:44.828 [discord4j-events-3] INFO  PCompany                                 : Peter Mclow
+2019-08-29 21:56:44.828 [discord4j-events-3] INFO  PCompany                                 : 「👕」Patron Tailleur

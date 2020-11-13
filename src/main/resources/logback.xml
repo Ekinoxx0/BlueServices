@@ -10,7 +10,7 @@
     <!-- You can learn more about this here: https://logback.qos.ch/manual/layouts.html#ClassicPatternLayout -->
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern>[%d{HH:mm:ss}] %highlight[%10.10logger{0}] %msg%n</pattern>
+            <pattern>[%d{HH:mm:ss}] [%10.10logger{0}] %msg%n</pattern>
         </encoder>
     </appender>
 

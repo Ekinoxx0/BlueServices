@@ -2,14 +2,23 @@
   "categoryId": 616684541381443600,
   "emoji": "👮",
   "name": "LSPD",
-  "allowed": false,
   "hasRunSystem": false,
   "lastTimePayedRunSystem": -1,
   "subscribedForDays": 0,
   "dailyPrimes": false,
-  "prime": 10,
-  "receivedByRun": 0,
+  "prime": [],
   "manualValidation": false,
-  "runs": [],
-  "accountBook": []
+  "roles": {
+    "67": 616697059784785970,
+    "68": 616697059784785970,
+    "69": 616697060346822674,
+    "70": 616696599942529065,
+    "71": 616696435659898901,
+    "72": 616696581462163469,
+    "73": 616696433566810123,
+    "74": 616696581462163469,
+    "75": 616696433172676609,
+    "77": 616696433172676609
+  },
+  "runs": []
 }
