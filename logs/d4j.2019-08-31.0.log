@@ -1,3 +1,0 @@
-2019-08-31 07:19:57.511 [main] INFO  discord4j.core.DiscordClientBuilder      : Shard 0 with Discord4J 3.0.8 (https://discord4j.com)
-2019-08-31 07:19:59.300 [discord4j-events-1] INFO  BServices                                : BlueServices is now logged.
-2019-08-31 07:19:59.300 [reactor-http-nio-4] INFO  discord4j.gateway.client.0               : Connected to Gateway

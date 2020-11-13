@@ -1,0 +1,412 @@
+[
+  {
+    "username": "Ekinoxx",
+    "displayName": "Leo Dagan",
+    "id": 195274814569578506,
+    "lastEdit": 1566025117094,
+    "runs": {
+      "1566025019669": true,
+      "1566025104374": true,
+      "1566025104375": false,
+      "1566025104373": false
+    },
+    "payDates": {
+      "1566025117094": 2
+    },
+    "messageId": 612178391923163167
+  },
+  {
+    "username": "Sugawara",
+    "displayName": "Claudomir Campos",
+    "id": 203813060320690176,
+    "lastEdit": 1565290950348,
+    "runs": {},
+    "payDates": {},
+    "messageId": 611355227664285715
+  },
+  {
+    "username": "oscar cagoule",
+    "displayName": "Oscar Cagoule",
+    "id": 604318808236359680,
+    "lastEdit": 1565960676001,
+    "runs": {
+      "15666": true,
+      "63588": true,
+      "1566025104375": false,
+      "1566025104373": false,
+      "99354": true,
+      "35787": true,
+      "94541": true,
+      "96300": true
+    },
+    "payDates": {
+      "1566025117094": 6
+    },
+    "messageId": 612188239201042452
+  },
+  {
+    "username": "Mike Rada",
+    "displayName": "Mike Rada",
+    "id": 241894732261883906,
+    "lastEdit": 1565794967454,
+    "runs": {
+      "1566025104371": false,
+      "1566025104374": false,
+      "1566025104375": false,
+      "1566025104372": false,
+      "1566025104373": false,
+      "1566025104378": false,
+      "1566025104379": false,
+      "1566025104376": false,
+      "1566025104377": false,
+      "52397": true,
+      "1566025104380": false,
+      "55379": true,
+      "61364": true,
+      "6619": true,
+      "34716": true
+    },
+    "payDates": {},
+    "messageId": 612188294557466644
+  },
+  {
+    "username": "Neprix",
+    "displayName": "Lenny Cortot",
+    "id": 273492462259929089,
+    "lastEdit": 1565964097866,
+    "runs": {
+      "91395": true,
+      "79751": true,
+      "40198": true,
+      "76038": true,
+      "73865": true,
+      "53390": true,
+      "91537": true,
+      "7697": true,
+      "86674": true,
+      "56211": true,
+      "95124": true,
+      "32539": true,
+      "93087": true,
+      "95136": true,
+      "11042": true,
+      "73382": true,
+      "47401": true,
+      "51886": true,
+      "60846": true,
+      "52662": true,
+      "63670": true,
+      "41399": true,
+      "73910": true,
+      "87992": true,
+      "19385": true,
+      "64955": true,
+      "73405": true,
+      "89276": true,
+      "70076": true,
+      "88639": true,
+      "62531": true,
+      "98370": true,
+      "43715": true,
+      "27717": true,
+      "1566025104378": false,
+      "1566025104379": false,
+      "1566025104380": false,
+      "90319": true,
+      "93653": true,
+      "58838": true,
+      "59486": true,
+      "59359": true,
+      "52067": true,
+      "81388": true,
+      "35182": true,
+      "78576": true,
+      "73202": true,
+      "68082": true,
+      "14714": true
+    },
+    "payDates": {
+      "1566025117094": 23
+    },
+    "messageId": 612188551794393089
+  },
+  {
+    "username": "c l e m 6 0 1 4",
+    "displayName": "Marc Cortot",
+    "id": 342670230461349889,
+    "lastEdit": 1565992472636,
+    "runs": {
+      "35970": true,
+      "90114": true,
+      "13029": true,
+      "61925": true,
+      "76871": true,
+      "58950": true,
+      "1566025104378": false,
+      "1566025104379": false,
+      "26761": true,
+      "83823": true,
+      "48786": true,
+      "8724": true,
+      "50231": true,
+      "80566": true,
+      "86777": true,
+      "41625": true,
+      "34075": true
+    },
+    "payDates": {
+      "1566025117094": 6
+    },
+    "messageId": 612188651484348418
+  },
+  {
+    "username": "Banko",
+    "displayName": "Harry Banko",
+    "id": 227831079741030400,
+    "lastEdit": 1565945041084,
+    "runs": {
+      "61826": true,
+      "16002": true,
+      "84486": true,
+      "1566025104378": false,
+      "76041": true,
+      "70411": true,
+      "26575": true,
+      "23441": true,
+      "67475": true,
+      "37530": true,
+      "48347": true,
+      "33180": true,
+      "13469": true,
+      "9250": true,
+      "75042": true,
+      "26660": true,
+      "48935": true,
+      "69992": true,
+      "59242": true,
+      "61226": true,
+      "51884": true,
+      "31212": true,
+      "37680": true,
+      "66228": true,
+      "71545": true
+    },
+    "payDates": {
+      "1566025117094": 19
+    },
+    "messageId": 612188750591688705
+  },
+  {
+    "username": "justin smith",
+    "displayName": "justin smith",
+    "id": 420154221199884288,
+    "lastEdit": 1565535734427,
+    "runs": {
+      "1566025104378": false,
+      "1566025104379": false,
+      "1566025104376": false,
+      "1566025104377": false,
+      "1566025104380": false
+    },
+    "payDates": {},
+    "messageId": 611355256755978260
+  },
+  {
+    "username": "UncleTiibs",
+    "displayName": "Jeremy Connors",
+    "id": 212304264347910144,
+    "lastEdit": 1565729851189,
+    "runs": {
+      "60817": true,
+      "41745": true,
+      "81250": true,
+      "32564": true,
+      "47222": true,
+      "67478": true,
+      "82345": true,
+      "24824": true,
+      "1566025104376": false,
+      "1566025104377": false,
+      "96234": true,
+      "43439": true
+    },
+    "payDates": {
+      "1566025117094": 10
+    },
+    "messageId": 612188810024845312
+  },
+  {
+    "username": "Zetsu",
+    "displayName": "Billy Belbou",
+    "id": 306474676396359682,
+    "lastEdit": 1565787431966,
+    "runs": {
+      "1566025104376": false,
+      "1566025104377": false
+    },
+    "payDates": {},
+    "messageId": 611355261206134784
+  },
+  {
+    "username": "Aiglerouge",
+    "displayName": "Jack Noir",
+    "id": 270271242148380684,
+    "lastEdit": 1565648317777,
+    "runs": {
+      "1566025104374": false,
+      "1566025104375": false,
+      "1566025104372": false,
+      "1566025104373": false,
+      "1566025104378": false,
+      "1566025104379": false,
+      "1566025104376": false,
+      "1566025104377": false,
+      "1566025104380": false
+    },
+    "payDates": {},
+    "messageId": 611355278650114048
+  },
+  {
+    "username": "Jordan Jones",
+    "displayName": "Jordan Jones",
+    "id": 600780975680651264,
+    "lastEdit": 1565962079127,
+    "runs": {
+      "95072": true,
+      "1566025104374": false,
+      "1566025104375": false,
+      "1566025104372": false,
+      "1566025104373": false,
+      "1566025104378": false,
+      "1566025104379": false,
+      "17609": true,
+      "1566025104376": false,
+      "1566025104377": false,
+      "1566025104380": false,
+      "1566025104381": false,
+      "52150": true,
+      "43962": true,
+      "69311": true
+    },
+    "payDates": {
+      "1566025117094": 3
+    },
+    "messageId": 612188866610462741
+  },
+  {
+    "username": "hugo monteralo",
+    "displayName": "hugo monteralo",
+    "id": 247018538483712000,
+    "lastEdit": 1565992618096,
+    "runs": {
+      "3841": true,
+      "65169": true,
+      "1566025104374": false,
+      "1566025104375": false,
+      "1566025104372": false,
+      "1566025104373": false,
+      "26839": true,
+      "1566025104378": false,
+      "73640": true,
+      "1566025104376": false,
+      "1566025104377": false,
+      "36797": true
+    },
+    "payDates": {
+      "1566025117094": 5
+    },
+    "messageId": 612188897006321664
+  },
+  {
+    "username": "SchadenZuu",
+    "displayName": "Bertant Cantat",
+    "id": 264477627321024513,
+    "lastEdit": 1565994530334,
+    "runs": {
+      "93223": true,
+      "1607": true,
+      "10440": true,
+      "3819": true,
+      "68370": true,
+      "74674": true,
+      "77621": true,
+      "85044": true,
+      "83798": true,
+      "18904": true,
+      "46137": true,
+      "20700": true,
+      "33053": true
+    },
+    "payDates": {
+      "1566025117094": 16
+    },
+    "messageId": 612188946838847497
+  },
+  {
+    "username": "Eiko",
+    "displayName": "Romain Decera",
+    "id": 267009595468152834,
+    "lastEdit": 1566016997639,
+    "runs": {
+      "33088": true,
+      "60230": true,
+      "15912": true,
+      "18856": true,
+      "7052": true,
+      "64652": true,
+      "91377": true,
+      "81074": true,
+      "5844": true,
+      "79961": true,
+      "13754": true,
+      "8669": true,
+      "54303": true
+    },
+    "payDates": {
+      "1566025117094": 13
+    },
+    "messageId": 612189070713421864
+  },
+  {
+    "username": "Kyle Cantat",
+    "displayName": "Kyle Cantat",
+    "id": 372722399927468033,
+    "lastEdit": 1565994589253,
+    "runs": {
+      "1156": true,
+      "25508": true,
+      "80518": true,
+      "33992": true,
+      "86634": true,
+      "99180": true,
+      "49807": true,
+      "73040": true,
+      "96436": true,
+      "24341": true,
+      "88151": true,
+      "5783": true,
+      "20887": true,
+      "9821": true
+    },
+    "payDates": {
+      "1566025117094": 13
+    },
+    "messageId": 612189101822705674
+  },
+  {
+    "username": "BillyBlacky",
+    "displayName": "Billy Blacky",
+    "id": 415280185504432128,
+    "lastEdit": 1565994425607,
+    "runs": {
+      "25574": true,
+      "19270": true,
+      "65194": true,
+      "34477": true
+    },
+    "payDates": {
+      "1566025117094": 4
+    },
+    "messageId": 612049019102822420
+  }
+]
