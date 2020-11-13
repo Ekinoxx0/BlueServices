@@ -1,0 +1,15 @@
+{
+  "categoryId": 616684764858155008,
+  "emoji": "💎",
+  "name": "Mineur",
+  "allowed": false,
+  "hasRunSystem": true,
+  "lastTimePayedRunSystem": -1,
+  "subscribedForDays": 0,
+  "dailyPrimes": false,
+  "prime": 10,
+  "receivedByRun": 0,
+  "manualValidation": false,
+  "runs": [],
+  "accountBook": []
+}

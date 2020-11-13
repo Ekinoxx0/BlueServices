@@ -1,0 +1,15 @@
+{
+  "categoryId": 614611454330404864,
+  "emoji": "🔨",
+  "name": "Bûcheron",
+  "allowed": false,
+  "hasRunSystem": true,
+  "lastTimePayedRunSystem": 0,
+  "subscribedForDays": 0,
+  "dailyPrimes": false,
+  "prime": 0,
+  "receivedByRun": 0,
+  "manualValidation": false,
+  "runs": [],
+  "accountBook": []
+}

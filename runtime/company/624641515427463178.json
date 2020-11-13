@@ -1,0 +1,15 @@
+{
+  "categoryId": 624641515427463178,
+  "emoji": "🏦",
+  "name": " Banque",
+  "allowed": false,
+  "hasRunSystem": true,
+  "lastTimePayedRunSystem": -1,
+  "subscribedForDays": 0,
+  "dailyPrimes": false,
+  "prime": 10,
+  "receivedByRun": 10,
+  "manualValidation": false,
+  "runs": [],
+  "accountBook": []
+}

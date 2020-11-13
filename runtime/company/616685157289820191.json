@@ -1,0 +1,15 @@
+{
+  "categoryId": 616685157289820191,
+  "emoji": "🚗",
+  "name": "Concessionaire",
+  "allowed": false,
+  "hasRunSystem": false,
+  "lastTimePayedRunSystem": -1,
+  "subscribedForDays": 0,
+  "dailyPrimes": false,
+  "prime": 10,
+  "receivedByRun": 0,
+  "manualValidation": false,
+  "runs": [],
+  "accountBook": []
+}

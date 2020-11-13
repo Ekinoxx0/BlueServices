@@ -1,0 +1,15 @@
+{
+  "categoryId": 616684608863469674,
+  "emoji": "🎓",
+  "name": "Avocat",
+  "allowed": false,
+  "hasRunSystem": true,
+  "lastTimePayedRunSystem": -1,
+  "subscribedForDays": 0,
+  "dailyPrimes": false,
+  "prime": 10,
+  "receivedByRun": 10,
+  "manualValidation": false,
+  "runs": [],
+  "accountBook": []
+}

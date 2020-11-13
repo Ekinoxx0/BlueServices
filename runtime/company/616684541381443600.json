@@ -1,0 +1,15 @@
+{
+  "categoryId": 616684541381443600,
+  "emoji": "👮",
+  "name": "LSPD",
+  "allowed": false,
+  "hasRunSystem": false,
+  "lastTimePayedRunSystem": -1,
+  "subscribedForDays": 0,
+  "dailyPrimes": false,
+  "prime": 10,
+  "receivedByRun": 0,
+  "manualValidation": false,
+  "runs": [],
+  "accountBook": []
+}

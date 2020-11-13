@@ -1,0 +1,15 @@
+{
+  "categoryId": 614611591262109713,
+  "emoji": "🏍",
+  "name": "Concessionnaire de Moto",
+  "allowed": false,
+  "hasRunSystem": false,
+  "lastTimePayedRunSystem": -1,
+  "subscribedForDays": 0,
+  "dailyPrimes": false,
+  "prime": 10,
+  "receivedByRun": 0,
+  "manualValidation": false,
+  "runs": [],
+  "accountBook": []
+}
